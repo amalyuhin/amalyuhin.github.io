@@ -1,6 +1,12 @@
+/*
+  Colors
+=======================================*/
 @brandColor: red;
 @brandColorContrast: white;
 
+/*
+  Buttons
+=======================================*/
 .button-variant(@color; @background; @border) {
   color: @color;
   background-color: @background;
@@ -55,5 +61,20 @@
 }
 
 .btn-primary {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
   .button-variant(@brandColorContrast, @brandColor,@brandColor);
+}
+
+/*
+  Forms
+=======================================*/
+.form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
 }
