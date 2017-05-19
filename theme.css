@@ -4,66 +4,256 @@
 /*
   Buttons
 =======================================*/
+.ActionButton__ActionButton,
+.rzhd-btn,
+.HotelOfferRoom__button,
+.SubmitButton__SubmitButton,
+.HotelsCard__footer__button,
+.MenuItem__MenuItem--isActive,
 .btn-primary {
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.3333333;
-  border-radius: 6px;
   color: white;
   background-color: green;
   border-color: green;
 }
+.ActionButton__ActionButton:focus,
+.rzhd-btn:focus,
+.HotelOfferRoom__button:focus,
+.SubmitButton__SubmitButton:focus,
+.HotelsCard__footer__button:focus,
+.MenuItem__MenuItem--isActive:focus,
 .btn-primary:focus,
+.ActionButton__ActionButton.focus,
+.rzhd-btn.focus,
+.HotelOfferRoom__button.focus,
+.SubmitButton__SubmitButton.focus,
+.HotelsCard__footer__button.focus,
+.MenuItem__MenuItem--isActive.focus,
 .btn-primary.focus {
   color: white;
   background-color: #004d00;
   border-color: #000000;
 }
+.ActionButton__ActionButton:hover,
+.rzhd-btn:hover,
+.HotelOfferRoom__button:hover,
+.SubmitButton__SubmitButton:hover,
+.HotelsCard__footer__button:hover,
+.MenuItem__MenuItem--isActive:hover,
 .btn-primary:hover {
   color: white;
   background-color: #004d00;
   border-color: #004300;
 }
+.ActionButton__ActionButton:active,
+.rzhd-btn:active,
+.HotelOfferRoom__button:active,
+.SubmitButton__SubmitButton:active,
+.HotelsCard__footer__button:active,
+.MenuItem__MenuItem--isActive:active,
 .btn-primary:active,
+.ActionButton__ActionButton.active,
+.rzhd-btn.active,
+.HotelOfferRoom__button.active,
+.SubmitButton__SubmitButton.active,
+.HotelsCard__footer__button.active,
+.MenuItem__MenuItem--isActive.active,
 .btn-primary.active,
+.open > .dropdown-toggle.ActionButton__ActionButton,
+.open > .dropdown-toggle.rzhd-btn,
+.open > .dropdown-toggle.HotelOfferRoom__button,
+.open > .dropdown-toggle.SubmitButton__SubmitButton,
+.open > .dropdown-toggle.HotelsCard__footer__button,
+.open > .dropdown-toggle.MenuItem__MenuItem--isActive,
 .open > .dropdown-toggle.btn-primary {
   color: white;
   background-color: #004d00;
   border-color: #004300;
 }
+.ActionButton__ActionButton:active:hover,
+.rzhd-btn:active:hover,
+.HotelOfferRoom__button:active:hover,
+.SubmitButton__SubmitButton:active:hover,
+.HotelsCard__footer__button:active:hover,
+.MenuItem__MenuItem--isActive:active:hover,
 .btn-primary:active:hover,
+.ActionButton__ActionButton.active:hover,
+.rzhd-btn.active:hover,
+.HotelOfferRoom__button.active:hover,
+.SubmitButton__SubmitButton.active:hover,
+.HotelsCard__footer__button.active:hover,
+.MenuItem__MenuItem--isActive.active:hover,
 .btn-primary.active:hover,
+.open > .dropdown-toggle.ActionButton__ActionButton:hover,
+.open > .dropdown-toggle.rzhd-btn:hover,
+.open > .dropdown-toggle.HotelOfferRoom__button:hover,
+.open > .dropdown-toggle.SubmitButton__SubmitButton:hover,
+.open > .dropdown-toggle.HotelsCard__footer__button:hover,
+.open > .dropdown-toggle.MenuItem__MenuItem--isActive:hover,
 .open > .dropdown-toggle.btn-primary:hover,
+.ActionButton__ActionButton:active:focus,
+.rzhd-btn:active:focus,
+.HotelOfferRoom__button:active:focus,
+.SubmitButton__SubmitButton:active:focus,
+.HotelsCard__footer__button:active:focus,
+.MenuItem__MenuItem--isActive:active:focus,
 .btn-primary:active:focus,
+.ActionButton__ActionButton.active:focus,
+.rzhd-btn.active:focus,
+.HotelOfferRoom__button.active:focus,
+.SubmitButton__SubmitButton.active:focus,
+.HotelsCard__footer__button.active:focus,
+.MenuItem__MenuItem--isActive.active:focus,
 .btn-primary.active:focus,
+.open > .dropdown-toggle.ActionButton__ActionButton:focus,
+.open > .dropdown-toggle.rzhd-btn:focus,
+.open > .dropdown-toggle.HotelOfferRoom__button:focus,
+.open > .dropdown-toggle.SubmitButton__SubmitButton:focus,
+.open > .dropdown-toggle.HotelsCard__footer__button:focus,
+.open > .dropdown-toggle.MenuItem__MenuItem--isActive:focus,
 .open > .dropdown-toggle.btn-primary:focus,
+.ActionButton__ActionButton:active.focus,
+.rzhd-btn:active.focus,
+.HotelOfferRoom__button:active.focus,
+.SubmitButton__SubmitButton:active.focus,
+.HotelsCard__footer__button:active.focus,
+.MenuItem__MenuItem--isActive:active.focus,
 .btn-primary:active.focus,
+.ActionButton__ActionButton.active.focus,
+.rzhd-btn.active.focus,
+.HotelOfferRoom__button.active.focus,
+.SubmitButton__SubmitButton.active.focus,
+.HotelsCard__footer__button.active.focus,
+.MenuItem__MenuItem--isActive.active.focus,
 .btn-primary.active.focus,
+.open > .dropdown-toggle.ActionButton__ActionButton.focus,
+.open > .dropdown-toggle.rzhd-btn.focus,
+.open > .dropdown-toggle.HotelOfferRoom__button.focus,
+.open > .dropdown-toggle.SubmitButton__SubmitButton.focus,
+.open > .dropdown-toggle.HotelsCard__footer__button.focus,
+.open > .dropdown-toggle.MenuItem__MenuItem--isActive.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: white;
   background-color: #002900;
   border-color: #000000;
 }
+.ActionButton__ActionButton:active,
+.rzhd-btn:active,
+.HotelOfferRoom__button:active,
+.SubmitButton__SubmitButton:active,
+.HotelsCard__footer__button:active,
+.MenuItem__MenuItem--isActive:active,
 .btn-primary:active,
+.ActionButton__ActionButton.active,
+.rzhd-btn.active,
+.HotelOfferRoom__button.active,
+.SubmitButton__SubmitButton.active,
+.HotelsCard__footer__button.active,
+.MenuItem__MenuItem--isActive.active,
 .btn-primary.active,
+.open > .dropdown-toggle.ActionButton__ActionButton,
+.open > .dropdown-toggle.rzhd-btn,
+.open > .dropdown-toggle.HotelOfferRoom__button,
+.open > .dropdown-toggle.SubmitButton__SubmitButton,
+.open > .dropdown-toggle.HotelsCard__footer__button,
+.open > .dropdown-toggle.MenuItem__MenuItem--isActive,
 .open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
+.ActionButton__ActionButton.disabled:hover,
+.rzhd-btn.disabled:hover,
+.HotelOfferRoom__button.disabled:hover,
+.SubmitButton__SubmitButton.disabled:hover,
+.HotelsCard__footer__button.disabled:hover,
+.MenuItem__MenuItem--isActive.disabled:hover,
 .btn-primary.disabled:hover,
+.ActionButton__ActionButton[disabled]:hover,
+.rzhd-btn[disabled]:hover,
+.HotelOfferRoom__button[disabled]:hover,
+.SubmitButton__SubmitButton[disabled]:hover,
+.HotelsCard__footer__button[disabled]:hover,
+.MenuItem__MenuItem--isActive[disabled]:hover,
 .btn-primary[disabled]:hover,
+fieldset[disabled] .ActionButton__ActionButton:hover,
+fieldset[disabled] .rzhd-btn:hover,
+fieldset[disabled] .HotelOfferRoom__button:hover,
+fieldset[disabled] .SubmitButton__SubmitButton:hover,
+fieldset[disabled] .HotelsCard__footer__button:hover,
+fieldset[disabled] .MenuItem__MenuItem--isActive:hover,
 fieldset[disabled] .btn-primary:hover,
+.ActionButton__ActionButton.disabled:focus,
+.rzhd-btn.disabled:focus,
+.HotelOfferRoom__button.disabled:focus,
+.SubmitButton__SubmitButton.disabled:focus,
+.HotelsCard__footer__button.disabled:focus,
+.MenuItem__MenuItem--isActive.disabled:focus,
 .btn-primary.disabled:focus,
+.ActionButton__ActionButton[disabled]:focus,
+.rzhd-btn[disabled]:focus,
+.HotelOfferRoom__button[disabled]:focus,
+.SubmitButton__SubmitButton[disabled]:focus,
+.HotelsCard__footer__button[disabled]:focus,
+.MenuItem__MenuItem--isActive[disabled]:focus,
 .btn-primary[disabled]:focus,
+fieldset[disabled] .ActionButton__ActionButton:focus,
+fieldset[disabled] .rzhd-btn:focus,
+fieldset[disabled] .HotelOfferRoom__button:focus,
+fieldset[disabled] .SubmitButton__SubmitButton:focus,
+fieldset[disabled] .HotelsCard__footer__button:focus,
+fieldset[disabled] .MenuItem__MenuItem--isActive:focus,
 fieldset[disabled] .btn-primary:focus,
+.ActionButton__ActionButton.disabled.focus,
+.rzhd-btn.disabled.focus,
+.HotelOfferRoom__button.disabled.focus,
+.SubmitButton__SubmitButton.disabled.focus,
+.HotelsCard__footer__button.disabled.focus,
+.MenuItem__MenuItem--isActive.disabled.focus,
 .btn-primary.disabled.focus,
+.ActionButton__ActionButton[disabled].focus,
+.rzhd-btn[disabled].focus,
+.HotelOfferRoom__button[disabled].focus,
+.SubmitButton__SubmitButton[disabled].focus,
+.HotelsCard__footer__button[disabled].focus,
+.MenuItem__MenuItem--isActive[disabled].focus,
 .btn-primary[disabled].focus,
+fieldset[disabled] .ActionButton__ActionButton.focus,
+fieldset[disabled] .rzhd-btn.focus,
+fieldset[disabled] .HotelOfferRoom__button.focus,
+fieldset[disabled] .SubmitButton__SubmitButton.focus,
+fieldset[disabled] .HotelsCard__footer__button.focus,
+fieldset[disabled] .MenuItem__MenuItem--isActive.focus,
 fieldset[disabled] .btn-primary.focus {
   background-color: green;
   border-color: green;
 }
+.ActionButton__ActionButton .badge,
+.rzhd-btn .badge,
+.HotelOfferRoom__button .badge,
+.SubmitButton__SubmitButton .badge,
+.HotelsCard__footer__button .badge,
+.MenuItem__MenuItem--isActive .badge,
 .btn-primary .badge {
   color: green;
   background-color: white;
+}
+/*
+  Hotels
+=======================================*/
+.active-head-tab svg g {
+  fill: green;
+}
+.HotelsSerp__content {
+  border-top-color: green;
+}
+.active-head-tab {
+  border-bottom-color: green;
+}
+.DropdownTrigger__button {
+  border-color: green;
+}
+.StarRating__StarRating,
+.HotelPageHeader__city,
+.DropdownTrigger__value {
+  color: green;
 }
 /*
   Forms

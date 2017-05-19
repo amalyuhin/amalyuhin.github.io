@@ -62,14 +62,40 @@
   }
 }
 
+.ActionButton__ActionButton  ,
+.rzhd-btn ,
+.HotelOfferRoom__button ,
+.SubmitButton__SubmitButton ,
+.HotelsCard__footer__button,
+.MenuItem__MenuItem--isActive,
 .btn-primary {
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.3333333;
-  border-radius: 6px;
+  //padding: 10px 16px;
+  //font-size: 18px;
+  //line-height: 1.3333333;
+  //border-radius: 6px;
   .button-variant(@brandColorContrast, @brandColor,@brandColor);
 }
 
+/*
+  Hotels
+=======================================*/
+.active-head-tab svg g{
+  fill: @brandColor;
+}
+.HotelsSerp__content{
+  border-top-color: @brandColor;
+}
+.active-head-tab {
+  border-bottom-color: @brandColor;
+}
+.DropdownTrigger__button{
+  border-color: @brandColor;
+}
+.StarRating__StarRating,
+.HotelPageHeader__city,
+.DropdownTrigger__value{
+  color: @brandColor;
+}
 /*
   Forms
 =======================================*/
