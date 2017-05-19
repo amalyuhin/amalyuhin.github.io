@@ -1,3 +1,57 @@
-.test-class {
-    color: #000;
+.btn-primary {
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: white;
+  background-color: #cc0000;
+  border-color: #800000;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #cc0000;
+  border-color: #c20000;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #cc0000;
+  border-color: #c20000;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: white;
+  background-color: #a80000;
+  border-color: #800000;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: red;
+  border-color: red;
+}
+.btn-primary .badge {
+  color: red;
+  background-color: white;
 }
