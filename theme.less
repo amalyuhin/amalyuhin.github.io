@@ -88,6 +88,7 @@ body{
 /*
   Hotels
 =======================================*/
+.app-container .search-forms .forms-tabs li.active .tab-icon > svg path,
 .active-head-tab svg g{
   fill: @brandColor !important;
 }
@@ -96,19 +97,30 @@ body{
 [data-wl-class~="HotelsSerp__content"] {
   border-top-color: @brandColor !important;
 }
+.app-container .search-forms .avia-search-form .search-type-filter > .btn.active,
+.app-container .search-forms .forms-tabs li.active,
 [data-wl-class~='TrainNav__type--isSelected'] [data-wl-class='TrainNav__content'],
 .active-head-tab {
   border-bottom-color: @brandColor !important;
 }
-[data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button']
+
+[data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button'],
 [data-wl-class~="DropdownTrigger__button"]{
   border-color: @brandColor !important;
 }
+[data-wl-class="DropdownTrigger__value DropdownTrigger__value--product-railways"],
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__value'],
 [data-wl-class~="StarRating__StarRating"],
 [data-wl-class~="HotelPageHeader__city"],
 [data-wl-class~="DropdownTrigger__value"]{
   color: @brandColor !important;
+}
+[data-wl-class="HotelsSerpList__hotel-card"]:after {
+  background-color: @brandColor !important;
+}
+
+[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
+  .button-variant(@brandColorContrast, @brandColor,@brandColor) !important;
 }
 /*
   Forms
