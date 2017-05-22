@@ -288,10 +288,12 @@ fieldset[disabled] .btn-primary.focus {
 .active-head-tab {
   border-bottom-color: green !important;
 }
+.horizontal-filtr a.active,
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button'],
 [data-wl-class~="DropdownTrigger__button"] {
   border-color: green !important;
 }
+[data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
 [data-wl-class="DropdownTrigger__value DropdownTrigger__value--product-railways"],
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__value'],
 [data-wl-class~="StarRating__StarRating"],
@@ -358,6 +360,14 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a .badge {
   color: green !important;
   background-color: white !important;
+}
+[data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] {
+  background-color: transparent !important;
+  box-shadow: inset 0 -4px green !important;
+}
+.avia-search-block .search-form .btn-group > a.active {
+  color: white !important;
+  background-color: green !important;
 }
 /*
   Forms
