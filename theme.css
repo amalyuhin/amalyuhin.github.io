@@ -5,7 +5,7 @@
   Base
 =======================================*/
 body {
-  background-color: black !important;
+  background-color: #fafafa !important;
 }
 /*
   Buttons
@@ -18,7 +18,7 @@ body {
 [data-wl-class~="HotelsCard__footer__button"],
 [data-wl-class~="MenuItem__MenuItem--isActive"],
 .btn-primary {
-  color: #fff !important;
+  color: black !important;
   background-color: #ffef00 !important;
   border-color: #ffef00 !important;
 }
@@ -38,7 +38,7 @@ body {
 [data-wl-class~="HotelsCard__footer__button"].focus,
 [data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 .btn-primary.focus {
-  color: #fff !important;
+  color: black !important;
   background-color: #ccbf00 !important;
   border-color: #807800 !important;
 }
@@ -50,7 +50,7 @@ body {
 [data-wl-class~="HotelsCard__footer__button"]:hover,
 [data-wl-class~="MenuItem__MenuItem--isActive"]:hover,
 .btn-primary:hover {
-  color: #fff !important;
+  color: black !important;
   background-color: #ccbf00 !important;
   border-color: #c2b600 !important;
 }
@@ -78,7 +78,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="HotelsCard__footer__button"],
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"],
 .open > .dropdown-toggle.btn-primary {
-  color: #fff !important;
+  color: black !important;
   background-color: #ccbf00 !important;
   border-color: #c2b600 !important;
 }
@@ -154,7 +154,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="HotelsCard__footer__button"].focus,
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 .open > .dropdown-toggle.btn-primary.focus {
-  color: #fff !important;
+  color: black !important;
   background-color: #a89e00 !important;
   border-color: #807800 !important;
 }
@@ -268,7 +268,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="MenuItem__MenuItem--isActive"] .badge,
 .btn-primary .badge {
   color: #ffef00 !important;
-  background-color: #fff !important;
+  background-color: black !important;
 }
 /*
   Hotels
@@ -305,25 +305,25 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #ffef00 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
-  color: #fff !important;
+  color: black !important;
   background-color: #ffef00 !important;
   border-color: #ffef00 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
-  color: #fff !important;
+  color: black !important;
   background-color: #ccbf00 !important;
   border-color: #807800 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:hover {
-  color: #fff !important;
+  color: black !important;
   background-color: #ccbf00 !important;
   border-color: #c2b600 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active,
 .open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
-  color: #fff !important;
+  color: black !important;
   background-color: #ccbf00 !important;
   border-color: #c2b600 !important;
 }
@@ -336,7 +336,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active.focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active.focus,
 .open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
-  color: #fff !important;
+  color: black !important;
   background-color: #a89e00 !important;
   border-color: #807800 !important;
 }
@@ -359,14 +359,14 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a .badge {
   color: #ffef00 !important;
-  background-color: #fff !important;
+  background-color: black !important;
 }
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] {
   background-color: transparent !important;
   box-shadow: inset 0 -4px #ffef00 !important;
 }
 .avia-search-block .search-form .btn-group > a.active {
-  color: #fff !important;
+  color: black !important;
   background-color: #ffef00 !important;
 }
 /*
