@@ -5,7 +5,7 @@
   Base
 =======================================*/
 body {
-  background-color: #fafafa !important;
+  background-color: black !important;
 }
 /*
   Buttons
@@ -19,8 +19,8 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"],
 .btn-primary {
   color: #fff !important;
-  background-color: #e30613 !important;
-  border-color: #e30613 !important;
+  background-color: #ffef00 !important;
+  border-color: #ffef00 !important;
 }
 .rzhd-btn:focus,
 [data-wl-class='ActionButton__inner']:focus,
@@ -39,8 +39,8 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 .btn-primary.focus {
   color: #fff !important;
-  background-color: #b1050f !important;
-  border-color: #670309 !important;
+  background-color: #ccbf00 !important;
+  border-color: #807800 !important;
 }
 .rzhd-btn:hover,
 [data-wl-class='ActionButton__inner']:hover,
@@ -51,8 +51,8 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:hover,
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #b1050f !important;
-  border-color: #a7040e !important;
+  background-color: #ccbf00 !important;
+  border-color: #c2b600 !important;
 }
 .rzhd-btn:active,
 [data-wl-class='ActionButton__inner']:active,
@@ -79,8 +79,8 @@ body {
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"],
 .open > .dropdown-toggle.btn-primary {
   color: #fff !important;
-  background-color: #b1050f !important;
-  border-color: #a7040e !important;
+  background-color: #ccbf00 !important;
+  border-color: #c2b600 !important;
 }
 .rzhd-btn:active:hover,
 [data-wl-class='ActionButton__inner']:active:hover,
@@ -155,8 +155,8 @@ body {
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff !important;
-  background-color: #8f040c !important;
-  border-color: #670309 !important;
+  background-color: #a89e00 !important;
+  border-color: #807800 !important;
 }
 .rzhd-btn:active,
 [data-wl-class='ActionButton__inner']:active,
@@ -256,8 +256,8 @@ fieldset[disabled] [data-wl-class~="SubmitButton__SubmitButton"].focus,
 fieldset[disabled] [data-wl-class~="HotelsCard__footer__button"].focus,
 fieldset[disabled] [data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #e30613 !important;
-  border-color: #e30613 !important;
+  background-color: #ffef00 !important;
+  border-color: #ffef00 !important;
 }
 .rzhd-btn .badge,
 [data-wl-class='ActionButton__inner'] .badge,
@@ -267,7 +267,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="HotelsCard__footer__button"] .badge,
 [data-wl-class~="MenuItem__MenuItem--isActive"] .badge,
 .btn-primary .badge {
-  color: #e30613 !important;
+  color: #ffef00 !important;
   background-color: #fff !important;
 }
 /*
@@ -275,23 +275,23 @@ fieldset[disabled] .btn-primary.focus {
 =======================================*/
 .app-container .search-forms .forms-tabs li.active .tab-icon > svg path,
 .active-head-tab svg g {
-  fill: #e30613 !important;
+  fill: #ffef00 !important;
 }
 [data-wl-class~='HotelPage__HotelPage'],
 [data-wl-class~='HotelsBookPay__header'],
 [data-wl-class~="HotelsSerp__content"] {
-  border-top-color: #e30613 !important;
+  border-top-color: #ffef00 !important;
 }
 .app-container .search-forms .avia-search-form .search-type-filter > .btn.active,
 .app-container .search-forms .forms-tabs li.active,
 [data-wl-class~='TrainNav__type--isSelected'] [data-wl-class='TrainNav__content'],
 .active-head-tab {
-  border-bottom-color: #e30613 !important;
+  border-bottom-color: #ffef00 !important;
 }
 .horizontal-filtr a.active,
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button'],
 [data-wl-class~="DropdownTrigger__button"] {
-  border-color: #e30613 !important;
+  border-color: #ffef00 !important;
 }
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
 [data-wl-class="DropdownTrigger__value DropdownTrigger__value--product-railways"],
@@ -299,33 +299,33 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="StarRating__StarRating"],
 [data-wl-class~="HotelPageHeader__city"],
 [data-wl-class~="DropdownTrigger__value"] {
-  color: #e30613 !important;
+  color: #ffef00 !important;
 }
 [data-wl-class="HotelsSerpList__hotel-card"]:after {
-  background-color: #e30613 !important;
+  background-color: #ffef00 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
   color: #fff !important;
-  background-color: #e30613 !important;
-  border-color: #e30613 !important;
+  background-color: #ffef00 !important;
+  border-color: #ffef00 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
   color: #fff !important;
-  background-color: #b1050f !important;
-  border-color: #670309 !important;
+  background-color: #ccbf00 !important;
+  border-color: #807800 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:hover {
   color: #fff !important;
-  background-color: #b1050f !important;
-  border-color: #a7040e !important;
+  background-color: #ccbf00 !important;
+  border-color: #c2b600 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active,
 .open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
   color: #fff !important;
-  background-color: #b1050f !important;
-  border-color: #a7040e !important;
+  background-color: #ccbf00 !important;
+  border-color: #c2b600 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active:hover,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active:hover,
@@ -337,8 +337,8 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active.focus,
 .open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
   color: #fff !important;
-  background-color: #8f040c !important;
-  border-color: #670309 !important;
+  background-color: #a89e00 !important;
+  border-color: #807800 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active,
@@ -354,20 +354,20 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.disabled.focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a[disabled].focus,
 fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
-  background-color: #e30613 !important;
-  border-color: #e30613 !important;
+  background-color: #ffef00 !important;
+  border-color: #ffef00 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a .badge {
-  color: #e30613 !important;
+  color: #ffef00 !important;
   background-color: #fff !important;
 }
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] {
   background-color: transparent !important;
-  box-shadow: inset 0 -4px #e30613 !important;
+  box-shadow: inset 0 -4px #ffef00 !important;
 }
 .avia-search-block .search-form .btn-group > a.active {
   color: #fff !important;
-  background-color: #e30613 !important;
+  background-color: #ffef00 !important;
 }
 /*
   Forms
