@@ -426,6 +426,12 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   padding: 10px;
   text-transform: uppercase;
 }
+.open > .dropdown-menu {
+  display: block;
+}
+.open > a {
+  outline: 0;
+}
 .search-forms .dropup,
 .search-forms .dropdown {
   position: relative;
@@ -491,12 +497,6 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   background-color: transparent;
   background-image: none;
   cursor: not-allowed;
-}
-.search-forms .open > .dropdown-menu {
-  display: block;
-}
-.search-forms .open > a {
-  outline: 0;
 }
 .search-forms .dropdown-menu-right {
   left: auto;

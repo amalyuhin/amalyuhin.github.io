@@ -229,6 +229,18 @@ body{
 
 // The dropdown wrapper (div)
 
+.open {
+  // Show the menu
+  > .dropdown-menu {
+    display: block;
+  }
+
+  // Remove the outline when :focus is triggered
+  > a {
+    outline: 0;
+  }
+}
+
 .search-forms {
   .dropup,
   .dropdown {
@@ -284,7 +296,11 @@ body{
       color: #333;
       white-space: nowrap; // prevent links from randomly breaking onto new lines
     }
+
+
   }
+
+
 
   // Hover/Focus state
   .dropdown-menu > li > a {
@@ -330,17 +346,7 @@ body{
   }
 
   // Open state for the dropdown
-  .open {
-    // Show the menu
-    > .dropdown-menu {
-      display: block;
-    }
 
-    // Remove the outline when :focus is triggered
-    > a {
-      outline: 0;
-    }
-  }
 
   // Menu positioning
   //
