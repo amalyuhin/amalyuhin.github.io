@@ -273,6 +273,8 @@ fieldset[disabled] .btn-primary.focus {
 /*
   Hotels
 =======================================*/
+/* fill: */
+.lk-icon,
 .app-container .search-forms .forms-tabs li.active .tab-icon > svg path,
 .active-head-tab svg g {
   fill: red !important;
