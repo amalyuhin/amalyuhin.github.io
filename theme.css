@@ -400,7 +400,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .ngdialog.auth-popup .nav-tabs.nav-justified > li.active > a:focus {
   color: #333;
 }
-.page-header {
+h1.page-header {
   color: red;
   font-size: 24px;
   font-weight: 700;
