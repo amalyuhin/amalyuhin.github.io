@@ -298,6 +298,8 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="DropdownTrigger__button"] {
   border-color: yellow !important;
 }
+.nav-bar .mobile-menu .navbar-collapse ul li a:hover,
+.nav-bar .mobile-menu .navbar-collapse ul li a:focus,
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
 [data-wl-class="DropdownTrigger__value DropdownTrigger__value--product-railways"],
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__value'],
@@ -306,6 +308,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="DropdownTrigger__value"] {
   color: yellow !important;
 }
+.nav-bar .mobile-menu .navbar-collapse ul li.active a,
 [data-wl-class="HotelsSerpList__hotel-card"]:after {
   background-color: yellow !important;
 }
@@ -373,6 +376,11 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .avia-search-block .search-form .btn-group > a.active {
   color: black !important;
   background-color: yellow !important;
+}
+.nav-bar .mobile-menu .navbar-collapse ul li.active a:hover,
+.nav-bar .mobile-menu .navbar-collapse ul li.active a:focus,
+.nav-bar .mobile-menu .navbar-collapse ul li.active a {
+  color: black !important;
 }
 /*
   Forms
