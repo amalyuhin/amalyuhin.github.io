@@ -281,11 +281,13 @@ fieldset[disabled] .btn-primary.focus {
 .active-head-tab svg g {
   fill: red !important;
 }
+/* Border top color */
 [data-wl-class~='HotelPage__HotelPage'],
 [data-wl-class~='HotelsBookPay__header'],
 [data-wl-class~="HotelsSerp__content"] {
   border-top-color: red !important;
 }
+/* Border bottom color */
 .nav-bar .nav-bar-table tr td a.active,
 .search-forms .avia-search-form .search-type-filter > .btn.active,
 .search-forms .forms-tabs li.active,
@@ -293,11 +295,17 @@ fieldset[disabled] .btn-primary.focus {
 .active-head-tab {
   border-bottom-color: red !important;
 }
+/* Border color */
 .horizontal-filtr a.active,
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button'],
 [data-wl-class~="DropdownTrigger__button"] {
   border-color: red !important;
 }
+/* Color */
+.search-forms .forms-tabs li:hover a,
+.search-forms .forms-tabs li:hover a:hover,
+.search-forms .forms-tabs li:focus a,
+.search-forms .forms-tabs li a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:focus,
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
@@ -308,6 +316,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="DropdownTrigger__value"] {
   color: red !important;
 }
+/* Background color */
 .nav-bar .mobile-menu .navbar-collapse ul li.active a,
 [data-wl-class="HotelsSerpList__hotel-card"]:after {
   background-color: red !important;
@@ -377,8 +386,6 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   color: white !important;
   background-color: red !important;
 }
-.search-forms .forms-tabs li:hover a,
-.search-forms .forms-tabs li:hover a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a {
