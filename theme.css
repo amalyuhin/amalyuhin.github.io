@@ -305,7 +305,6 @@ fieldset[disabled] .btn-primary.focus {
   border-color: green !important;
 }
 /* Color */
-.baggageTariff .service-box .mb-service-value,
 .search-forms .forms-tabs li:hover a,
 .search-forms .forms-tabs li:hover a:hover,
 .search-forms .forms-tabs li:focus a,
@@ -392,6 +391,8 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   color: white !important;
   background-color: green !important;
 }
+/* Color contrast*/
+.baggageTariff .service-box .mb-service-value,
 [data-wl-class~="CheckButton__CheckButton CheckButton__CheckButton--isActive"],
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:focus,
