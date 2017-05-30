@@ -441,6 +441,9 @@ h1.page-header {
   border: none;
   text-align: center;
 }
+.ngdialog {
+  z-index: 9999999 !important;
+}
 .ngdialog.ngdialog-theme-default .ngdialog-close {
   outline: none !important;
 }
