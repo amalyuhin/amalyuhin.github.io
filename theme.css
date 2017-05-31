@@ -402,7 +402,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   color: white !important;
 }
 /* Fill contrast*/
-.mobile-menu .dropdown-menu li.main-menu-item.active a .tab-icon {
+.mobile-menu .dropdown-menu li.main-menu-item.active a .tab-icon svg path {
   fill: white !important;
 }
 .form-control:focus {
