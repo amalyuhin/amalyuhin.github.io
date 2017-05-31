@@ -278,7 +278,7 @@ fieldset[disabled] .btn-primary.focus {
 .baggageTariff .service-box .colored-svg,
 .lk-icon,
 .lk-icon path,
-.search-forms .forms-tabs li.active .tab-icon > svg path,
+.forms-tabs li.active .tab-icon > svg path,
 .active-head-tab svg g {
   fill: green !important;
 }
@@ -292,7 +292,7 @@ fieldset[disabled] .btn-primary.focus {
 .filtr-block .tabs > li.active > a,
 .nav-bar .nav-bar-table tr td a.active,
 .search-forms .avia-search-form .search-type-filter > .btn.active,
-.search-forms .forms-tabs li.active,
+.forms-tabs li.active,
 [data-wl-class~='TrainNav__type--isSelected'] [data-wl-class='TrainNav__content'],
 .active-head-tab {
   border-bottom-color: green !important;
@@ -305,10 +305,10 @@ fieldset[disabled] .btn-primary.focus {
   border-color: green !important;
 }
 /* Color */
-.search-forms .forms-tabs li:hover a,
-.search-forms .forms-tabs li:hover a:hover,
-.search-forms .forms-tabs li:focus a,
-.search-forms .forms-tabs li a:focus,
+.forms-tabs li:hover a,
+.forms-tabs li:hover a:hover,
+.forms-tabs li:focus a,
+.forms-tabs li a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:focus,
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
@@ -320,6 +320,7 @@ fieldset[disabled] .btn-primary.focus {
   color: green !important;
 }
 /* Background color */
+.mobile-menu .dropdown-menu li.main-menu-item.active a,
 .baggageTariff .service-box .mb-service-value,
 [data-wl-class~="CheckButton__CheckButton CheckButton__CheckButton--isActive"],
 .nav-bar .mobile-menu .navbar-collapse ul li.active a,
@@ -392,12 +393,17 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   background-color: green !important;
 }
 /* Color contrast*/
+.mobile-menu .dropdown-menu li.main-menu-item.active a,
 .baggageTariff .service-box .mb-service-value,
 [data-wl-class~="CheckButton__CheckButton CheckButton__CheckButton--isActive"],
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a {
   color: white !important;
+}
+/* Fill contrast*/
+.mobile-menu .dropdown-menu li.main-menu-item.active a .tab-icon {
+  fill: white !important;
 }
 .form-control:focus {
   border-color: green !important;
