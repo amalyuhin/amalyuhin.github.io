@@ -405,6 +405,10 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .mobile-menu .dropdown-menu li.main-menu-item.active a .tab-icon svg path {
   fill: white !important;
 }
+/* Background contrast*/
+.mobile-menu .icon-bar {
+  background-color: white !important;
+}
 .form-control:focus {
   border-color: green !important;
   outline: 0 !important;
