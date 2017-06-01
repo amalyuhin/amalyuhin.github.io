@@ -391,6 +391,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   background-color: transparent !important;
   box-shadow: inset 0 -4px green !important;
 }
+[data-wl-class~="CheckButton__CheckButton CheckButton__CheckButton--isActive"],
 .avia-search-block .search-form .btn-group > a.active {
   color: white !important;
   background-color: green !important;
