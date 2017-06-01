@@ -311,6 +311,7 @@ fieldset[disabled] .btn-primary.focus {
 .forms-tabs li a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:focus,
+[data-wl-class~='HotelsIndex__deals'] .deals-description,
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
 [data-wl-class="DropdownTrigger__value DropdownTrigger__value--product-railways"],
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__value'],
@@ -320,12 +321,14 @@ fieldset[disabled] .btn-primary.focus {
   color: green !important;
 }
 /* Background color */
+[data-wl-class~='HotelsSerp__header'],
 .mobile-menu .dropdown-menu li.main-menu-item.active a,
 .baggageTariff .service-box .mb-service-value,
 [data-wl-class~="CheckButton__CheckButton CheckButton__CheckButton--isActive"],
 .nav-bar .mobile-menu .navbar-collapse ul li.active a,
 [data-wl-class="HotelsSerpList__hotel-card"]:after {
   background-color: green !important;
+  background-image: none !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
   color: white !important;
@@ -391,6 +394,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .avia-search-block .search-form .btn-group > a.active {
   color: white !important;
   background-color: green !important;
+  background-image: none !important;
 }
 /* Color contrast*/
 .mobile-menu .dropdown-menu li.main-menu-item.active a,
@@ -408,6 +412,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 /* Background contrast*/
 .mobile-menu .icon-bar {
   background-color: white !important;
+  background-image: none !important;
 }
 .form-control:focus {
   border-color: green !important;
