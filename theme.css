@@ -23,8 +23,8 @@ body {
 .btn-primary {
   color: white !important;
   background-color: green !important;
-  border-color: green !important;
   background-image: none !important !important;
+  border-color: green !important;
 }
 .rzhd-btn:focus,
 [data-wl-class='ActionButton__inner']:focus,
@@ -329,6 +329,8 @@ fieldset[disabled] .btn-primary.focus {
   border-bottom-color: green !important;
 }
 /* Border color */
+.lk-head-btn:hover,
+.lk-head-btn:focus,
 [data-wl-class~="CheckButton__CheckButton"],
 .horizontal-filtr a.active,
 [data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button'],
@@ -364,8 +366,8 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
   color: white !important;
   background-color: green !important;
-  border-color: green !important;
   background-image: none !important !important;
+  border-color: green !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
