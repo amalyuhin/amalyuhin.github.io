@@ -6,6 +6,7 @@
 =======================================*/
 [data-wl-class~="HotelsIndex__HotelsIndex"],
 body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   min-height: 300px !important;
   background-color: #fafafa !important;
 }
@@ -323,7 +324,6 @@ fieldset[disabled] .btn-primary.focus {
 .filtr-block .tabs > li.active > a,
 .nav-bar .nav-bar-table tr td a.active,
 .search-forms .avia-search-form .search-type-filter > .btn.active,
-.forms-tabs li.active,
 [data-wl-class~='TrainNav__type--isSelected'] [data-wl-class='TrainNav__content'],
 .active-head-tab {
   border-bottom-color: green !important;
