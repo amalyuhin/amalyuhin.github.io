@@ -22,7 +22,7 @@ body {
 [data-wl-class~="HotelsCard__footer__button"],
 [data-wl-class~="MenuItem__MenuItem--isActive"],
 .btn-primary {
-  color: black !important;
+  color: white !important;
   background-color: red !important;
   background-image: none !important !important;
   border-color: red !important;
@@ -45,7 +45,7 @@ body {
 [data-wl-class~="HotelsCard__footer__button"].focus,
 [data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 .btn-primary.focus {
-  color: black !important;
+  color: white !important;
   background-color: #cc0000 !important;
   border-color: #800000 !important;
 }
@@ -58,7 +58,7 @@ body {
 [data-wl-class~="HotelsCard__footer__button"]:hover,
 [data-wl-class~="MenuItem__MenuItem--isActive"]:hover,
 .btn-primary:hover {
-  color: black !important;
+  color: white !important;
   background-color: #cc0000 !important;
   border-color: #c20000 !important;
 }
@@ -89,7 +89,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="HotelsCard__footer__button"],
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"],
 .open > .dropdown-toggle.btn-primary {
-  color: black !important;
+  color: white !important;
   background-color: #cc0000 !important;
   border-color: #c20000 !important;
 }
@@ -174,7 +174,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="HotelsCard__footer__button"].focus,
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"].focus,
 .open > .dropdown-toggle.btn-primary.focus {
-  color: black !important;
+  color: white !important;
   background-color: #a80000 !important;
   border-color: #800000 !important;
 }
@@ -301,7 +301,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="MenuItem__MenuItem--isActive"] .badge,
 .btn-primary .badge {
   color: red !important;
-  background-color: black !important;
+  background-color: white !important;
 }
 /*
   Hotels
@@ -364,26 +364,26 @@ fieldset[disabled] .btn-primary.focus {
   background-image: none !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
-  color: black !important;
+  color: white !important;
   background-color: red !important;
   background-image: none !important !important;
   border-color: red !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
-  color: black !important;
+  color: white !important;
   background-color: #cc0000 !important;
   border-color: #800000 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:hover {
-  color: black !important;
+  color: white !important;
   background-color: #cc0000 !important;
   border-color: #c20000 !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active,
 .open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
-  color: black !important;
+  color: white !important;
   background-color: #cc0000 !important;
   border-color: #c20000 !important;
 }
@@ -396,7 +396,7 @@ fieldset[disabled] .btn-primary.focus {
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active.focus,
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active.focus,
 .open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
-  color: black !important;
+  color: white !important;
   background-color: #a80000 !important;
   border-color: #800000 !important;
 }
@@ -419,7 +419,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a .badge {
   color: red !important;
-  background-color: black !important;
+  background-color: white !important;
 }
 [data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] {
   background-color: transparent !important;
@@ -427,7 +427,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 }
 [data-wl-class~="CheckButton__CheckButton--isActive"],
 .avia-search-block .search-form .btn-group > a.active {
-  color: black !important;
+  color: white !important;
   background-color: red !important;
   background-image: none !important;
 }
@@ -439,15 +439,15 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li.active a {
-  color: black !important;
+  color: white !important;
 }
 /* Fill contrast*/
 .mobile-menu .dropdown-menu li.main-menu-item.active a .tab-icon svg path {
-  fill: black !important;
+  fill: white !important;
 }
 /* Background contrast*/
 .mobile-menu .icon-bar {
-  background-color: black !important;
+  background-color: white !important;
   background-image: none !important;
 }
 .appContainer [data-wl-class~="HotelsSearchForm__guests"] input:focus,
@@ -478,7 +478,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 }
 .ngdialog.auth-popup .nav-tabs.nav-justified > li > a:hover,
 .ngdialog.auth-popup .nav-tabs.nav-justified > li > a:focus {
-  color: black;
+  color: white;
 }
 .ngdialog.auth-popup .nav-tabs.nav-justified > li.active > a {
   color: #333;
