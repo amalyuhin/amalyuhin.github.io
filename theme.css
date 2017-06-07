@@ -24,7 +24,7 @@ body {
 .btn-primary {
   color: white !important;
   background-color: red !important;
-  background-image: none !important !important;
+  background-image: none !important;
   border-color: red !important;
 }
 .rzhd-btn:focus,
@@ -205,7 +205,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="HotelsCard__footer__button"],
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"],
 .open > .dropdown-toggle.btn-primary {
-  background-image: none !important !important;
+  background-image: none !important;
 }
 .rzhd-btn.disabled:hover,
 [data-wl-class~="ActionButton__inner"].disabled:hover,
