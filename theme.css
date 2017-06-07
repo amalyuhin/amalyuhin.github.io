@@ -498,19 +498,8 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdo
 .well {
   background-color: #fff !important;
 }
-.ngdialog.auth-popup .nav-tabs.nav-justified > li > a {
-  color: red;
-}
-.ngdialog.auth-popup .nav-tabs.nav-justified > li > a:hover,
-.ngdialog.auth-popup .nav-tabs.nav-justified > li > a:focus {
-  color: white;
-}
-.ngdialog.auth-popup .nav-tabs.nav-justified > li.active > a {
-  color: #333;
-}
-.ngdialog.auth-popup .nav-tabs.nav-justified > li.active > a:hover,
-.ngdialog.auth-popup .nav-tabs.nav-justified > li.active > a:focus {
-  color: #333;
+.ngdialog.auth-popup .nav-tabs.nav-justified > li.active > a:after {
+  background: red !important;
 }
 h1.page-header {
   color: red;
