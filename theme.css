@@ -306,6 +306,12 @@ fieldset[disabled] .btn-primary.focus {
 /*
   Hotels
 =======================================*/
+[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] svg {
+  background-color: red !important;
+}
+[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] svg path {
+  fill: white !important;
+}
 /* fill: */
 .baggageTariff .service-box .colored-svg,
 .lk-icon,
