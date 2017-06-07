@@ -14,7 +14,7 @@ body {
   Buttons
 =======================================*/
 .rzhd-btn,
-[data-wl-class='ActionButton__inner'],
+[data-wl-class~="ActionButton__inner"],
 [data-wl-class~="ActionButton__ActionButton"],
 [data-wl-class~="NewTrainCard__button"],
 [data-wl-class~="HotelOfferRoom__button"],
@@ -28,7 +28,7 @@ body {
   border-color: red !important;
 }
 .rzhd-btn:focus,
-[data-wl-class='ActionButton__inner']:focus,
+[data-wl-class~="ActionButton__inner"]:focus,
 [data-wl-class~="ActionButton__ActionButton"]:focus,
 [data-wl-class~="NewTrainCard__button"]:focus,
 [data-wl-class~="HotelOfferRoom__button"]:focus,
@@ -37,7 +37,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:focus,
 .btn-primary:focus,
 .rzhd-btn.focus,
-[data-wl-class='ActionButton__inner'].focus,
+[data-wl-class~="ActionButton__inner"].focus,
 [data-wl-class~="ActionButton__ActionButton"].focus,
 [data-wl-class~="NewTrainCard__button"].focus,
 [data-wl-class~="HotelOfferRoom__button"].focus,
@@ -50,7 +50,7 @@ body {
   border-color: #800000 !important;
 }
 .rzhd-btn:hover,
-[data-wl-class='ActionButton__inner']:hover,
+[data-wl-class~="ActionButton__inner"]:hover,
 [data-wl-class~="ActionButton__ActionButton"]:hover,
 [data-wl-class~="NewTrainCard__button"]:hover,
 [data-wl-class~="HotelOfferRoom__button"]:hover,
@@ -63,7 +63,7 @@ body {
   border-color: #c20000 !important;
 }
 .rzhd-btn:active,
-[data-wl-class='ActionButton__inner']:active,
+[data-wl-class~="ActionButton__inner"]:active,
 [data-wl-class~="ActionButton__ActionButton"]:active,
 [data-wl-class~="NewTrainCard__button"]:active,
 [data-wl-class~="HotelOfferRoom__button"]:active,
@@ -72,7 +72,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:active,
 .btn-primary:active,
 .rzhd-btn.active,
-[data-wl-class='ActionButton__inner'].active,
+[data-wl-class~="ActionButton__inner"].active,
 [data-wl-class~="ActionButton__ActionButton"].active,
 [data-wl-class~="NewTrainCard__button"].active,
 [data-wl-class~="HotelOfferRoom__button"].active,
@@ -81,7 +81,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].active,
 .btn-primary.active,
 .open > .dropdown-toggle.rzhd-btn,
-.open > .dropdown-toggle[data-wl-class='ActionButton__inner'],
+.open > .dropdown-toggle[data-wl-class~="ActionButton__inner"],
 .open > .dropdown-toggle[data-wl-class~="ActionButton__ActionButton"],
 .open > .dropdown-toggle[data-wl-class~="NewTrainCard__button"],
 .open > .dropdown-toggle[data-wl-class~="HotelOfferRoom__button"],
@@ -94,7 +94,7 @@ body {
   border-color: #c20000 !important;
 }
 .rzhd-btn:active:hover,
-[data-wl-class='ActionButton__inner']:active:hover,
+[data-wl-class~="ActionButton__inner"]:active:hover,
 [data-wl-class~="ActionButton__ActionButton"]:active:hover,
 [data-wl-class~="NewTrainCard__button"]:active:hover,
 [data-wl-class~="HotelOfferRoom__button"]:active:hover,
@@ -103,7 +103,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:active:hover,
 .btn-primary:active:hover,
 .rzhd-btn.active:hover,
-[data-wl-class='ActionButton__inner'].active:hover,
+[data-wl-class~="ActionButton__inner"].active:hover,
 [data-wl-class~="ActionButton__ActionButton"].active:hover,
 [data-wl-class~="NewTrainCard__button"].active:hover,
 [data-wl-class~="HotelOfferRoom__button"].active:hover,
@@ -112,7 +112,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].active:hover,
 .btn-primary.active:hover,
 .open > .dropdown-toggle.rzhd-btn:hover,
-.open > .dropdown-toggle[data-wl-class='ActionButton__inner']:hover,
+.open > .dropdown-toggle[data-wl-class~="ActionButton__inner"]:hover,
 .open > .dropdown-toggle[data-wl-class~="ActionButton__ActionButton"]:hover,
 .open > .dropdown-toggle[data-wl-class~="NewTrainCard__button"]:hover,
 .open > .dropdown-toggle[data-wl-class~="HotelOfferRoom__button"]:hover,
@@ -121,7 +121,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"]:hover,
 .open > .dropdown-toggle.btn-primary:hover,
 .rzhd-btn:active:focus,
-[data-wl-class='ActionButton__inner']:active:focus,
+[data-wl-class~="ActionButton__inner"]:active:focus,
 [data-wl-class~="ActionButton__ActionButton"]:active:focus,
 [data-wl-class~="NewTrainCard__button"]:active:focus,
 [data-wl-class~="HotelOfferRoom__button"]:active:focus,
@@ -130,7 +130,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:active:focus,
 .btn-primary:active:focus,
 .rzhd-btn.active:focus,
-[data-wl-class='ActionButton__inner'].active:focus,
+[data-wl-class~="ActionButton__inner"].active:focus,
 [data-wl-class~="ActionButton__ActionButton"].active:focus,
 [data-wl-class~="NewTrainCard__button"].active:focus,
 [data-wl-class~="HotelOfferRoom__button"].active:focus,
@@ -139,7 +139,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].active:focus,
 .btn-primary.active:focus,
 .open > .dropdown-toggle.rzhd-btn:focus,
-.open > .dropdown-toggle[data-wl-class='ActionButton__inner']:focus,
+.open > .dropdown-toggle[data-wl-class~="ActionButton__inner"]:focus,
 .open > .dropdown-toggle[data-wl-class~="ActionButton__ActionButton"]:focus,
 .open > .dropdown-toggle[data-wl-class~="NewTrainCard__button"]:focus,
 .open > .dropdown-toggle[data-wl-class~="HotelOfferRoom__button"]:focus,
@@ -148,7 +148,7 @@ body {
 .open > .dropdown-toggle[data-wl-class~="MenuItem__MenuItem--isActive"]:focus,
 .open > .dropdown-toggle.btn-primary:focus,
 .rzhd-btn:active.focus,
-[data-wl-class='ActionButton__inner']:active.focus,
+[data-wl-class~="ActionButton__inner"]:active.focus,
 [data-wl-class~="ActionButton__ActionButton"]:active.focus,
 [data-wl-class~="NewTrainCard__button"]:active.focus,
 [data-wl-class~="HotelOfferRoom__button"]:active.focus,
@@ -157,7 +157,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:active.focus,
 .btn-primary:active.focus,
 .rzhd-btn.active.focus,
-[data-wl-class='ActionButton__inner'].active.focus,
+[data-wl-class~="ActionButton__inner"].active.focus,
 [data-wl-class~="ActionButton__ActionButton"].active.focus,
 [data-wl-class~="NewTrainCard__button"].active.focus,
 [data-wl-class~="HotelOfferRoom__button"].active.focus,
@@ -166,7 +166,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].active.focus,
 .btn-primary.active.focus,
 .open > .dropdown-toggle.rzhd-btn.focus,
-.open > .dropdown-toggle[data-wl-class='ActionButton__inner'].focus,
+.open > .dropdown-toggle[data-wl-class~="ActionButton__inner"].focus,
 .open > .dropdown-toggle[data-wl-class~="ActionButton__ActionButton"].focus,
 .open > .dropdown-toggle[data-wl-class~="NewTrainCard__button"].focus,
 .open > .dropdown-toggle[data-wl-class~="HotelOfferRoom__button"].focus,
@@ -179,7 +179,7 @@ body {
   border-color: #800000 !important;
 }
 .rzhd-btn:active,
-[data-wl-class='ActionButton__inner']:active,
+[data-wl-class~="ActionButton__inner"]:active,
 [data-wl-class~="ActionButton__ActionButton"]:active,
 [data-wl-class~="NewTrainCard__button"]:active,
 [data-wl-class~="HotelOfferRoom__button"]:active,
@@ -188,7 +188,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"]:active,
 .btn-primary:active,
 .rzhd-btn.active,
-[data-wl-class='ActionButton__inner'].active,
+[data-wl-class~="ActionButton__inner"].active,
 [data-wl-class~="ActionButton__ActionButton"].active,
 [data-wl-class~="NewTrainCard__button"].active,
 [data-wl-class~="HotelOfferRoom__button"].active,
@@ -197,7 +197,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].active,
 .btn-primary.active,
 .open > .dropdown-toggle.rzhd-btn,
-.open > .dropdown-toggle[data-wl-class='ActionButton__inner'],
+.open > .dropdown-toggle[data-wl-class~="ActionButton__inner"],
 .open > .dropdown-toggle[data-wl-class~="ActionButton__ActionButton"],
 .open > .dropdown-toggle[data-wl-class~="NewTrainCard__button"],
 .open > .dropdown-toggle[data-wl-class~="HotelOfferRoom__button"],
@@ -208,7 +208,7 @@ body {
   background-image: none !important !important;
 }
 .rzhd-btn.disabled:hover,
-[data-wl-class='ActionButton__inner'].disabled:hover,
+[data-wl-class~="ActionButton__inner"].disabled:hover,
 [data-wl-class~="ActionButton__ActionButton"].disabled:hover,
 [data-wl-class~="NewTrainCard__button"].disabled:hover,
 [data-wl-class~="HotelOfferRoom__button"].disabled:hover,
@@ -217,7 +217,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"].disabled:hover,
 .btn-primary.disabled:hover,
 .rzhd-btn[disabled]:hover,
-[data-wl-class='ActionButton__inner'][disabled]:hover,
+[data-wl-class~="ActionButton__inner"][disabled]:hover,
 [data-wl-class~="ActionButton__ActionButton"][disabled]:hover,
 [data-wl-class~="NewTrainCard__button"][disabled]:hover,
 [data-wl-class~="HotelOfferRoom__button"][disabled]:hover,
@@ -226,7 +226,7 @@ body {
 [data-wl-class~="MenuItem__MenuItem--isActive"][disabled]:hover,
 .btn-primary[disabled]:hover,
 fieldset[disabled] .rzhd-btn:hover,
-fieldset[disabled] [data-wl-class='ActionButton__inner']:hover,
+fieldset[disabled] [data-wl-class~="ActionButton__inner"]:hover,
 fieldset[disabled] [data-wl-class~="ActionButton__ActionButton"]:hover,
 fieldset[disabled] [data-wl-class~="NewTrainCard__button"]:hover,
 fieldset[disabled] [data-wl-class~="HotelOfferRoom__button"]:hover,
@@ -235,7 +235,7 @@ fieldset[disabled] [data-wl-class~="HotelsCard__footer__button"]:hover,
 fieldset[disabled] [data-wl-class~="MenuItem__MenuItem--isActive"]:hover,
 fieldset[disabled] .btn-primary:hover,
 .rzhd-btn.disabled:focus,
-[data-wl-class='ActionButton__inner'].disabled:focus,
+[data-wl-class~="ActionButton__inner"].disabled:focus,
 [data-wl-class~="ActionButton__ActionButton"].disabled:focus,
 [data-wl-class~="NewTrainCard__button"].disabled:focus,
 [data-wl-class~="HotelOfferRoom__button"].disabled:focus,
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-primary:hover,
 [data-wl-class~="MenuItem__MenuItem--isActive"].disabled:focus,
 .btn-primary.disabled:focus,
 .rzhd-btn[disabled]:focus,
-[data-wl-class='ActionButton__inner'][disabled]:focus,
+[data-wl-class~="ActionButton__inner"][disabled]:focus,
 [data-wl-class~="ActionButton__ActionButton"][disabled]:focus,
 [data-wl-class~="NewTrainCard__button"][disabled]:focus,
 [data-wl-class~="HotelOfferRoom__button"][disabled]:focus,
@@ -253,7 +253,7 @@ fieldset[disabled] .btn-primary:hover,
 [data-wl-class~="MenuItem__MenuItem--isActive"][disabled]:focus,
 .btn-primary[disabled]:focus,
 fieldset[disabled] .rzhd-btn:focus,
-fieldset[disabled] [data-wl-class='ActionButton__inner']:focus,
+fieldset[disabled] [data-wl-class~="ActionButton__inner"]:focus,
 fieldset[disabled] [data-wl-class~="ActionButton__ActionButton"]:focus,
 fieldset[disabled] [data-wl-class~="NewTrainCard__button"]:focus,
 fieldset[disabled] [data-wl-class~="HotelOfferRoom__button"]:focus,
@@ -262,7 +262,7 @@ fieldset[disabled] [data-wl-class~="HotelsCard__footer__button"]:focus,
 fieldset[disabled] [data-wl-class~="MenuItem__MenuItem--isActive"]:focus,
 fieldset[disabled] .btn-primary:focus,
 .rzhd-btn.disabled.focus,
-[data-wl-class='ActionButton__inner'].disabled.focus,
+[data-wl-class~="ActionButton__inner"].disabled.focus,
 [data-wl-class~="ActionButton__ActionButton"].disabled.focus,
 [data-wl-class~="NewTrainCard__button"].disabled.focus,
 [data-wl-class~="HotelOfferRoom__button"].disabled.focus,
@@ -271,7 +271,7 @@ fieldset[disabled] .btn-primary:focus,
 [data-wl-class~="MenuItem__MenuItem--isActive"].disabled.focus,
 .btn-primary.disabled.focus,
 .rzhd-btn[disabled].focus,
-[data-wl-class='ActionButton__inner'][disabled].focus,
+[data-wl-class~="ActionButton__inner"][disabled].focus,
 [data-wl-class~="ActionButton__ActionButton"][disabled].focus,
 [data-wl-class~="NewTrainCard__button"][disabled].focus,
 [data-wl-class~="HotelOfferRoom__button"][disabled].focus,
@@ -280,7 +280,7 @@ fieldset[disabled] .btn-primary:focus,
 [data-wl-class~="MenuItem__MenuItem--isActive"][disabled].focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .rzhd-btn.focus,
-fieldset[disabled] [data-wl-class='ActionButton__inner'].focus,
+fieldset[disabled] [data-wl-class~="ActionButton__inner"].focus,
 fieldset[disabled] [data-wl-class~="ActionButton__ActionButton"].focus,
 fieldset[disabled] [data-wl-class~="NewTrainCard__button"].focus,
 fieldset[disabled] [data-wl-class~="HotelOfferRoom__button"].focus,
@@ -292,7 +292,7 @@ fieldset[disabled] .btn-primary.focus {
   border-color: red !important;
 }
 .rzhd-btn .badge,
-[data-wl-class='ActionButton__inner'] .badge,
+[data-wl-class~="ActionButton__inner"] .badge,
 [data-wl-class~="ActionButton__ActionButton"] .badge,
 [data-wl-class~="NewTrainCard__button"] .badge,
 [data-wl-class~="HotelOfferRoom__button"] .badge,
@@ -315,8 +315,8 @@ fieldset[disabled] .btn-primary.focus {
   fill: red !important;
 }
 /* Border top color */
-[data-wl-class~='HotelPage__HotelPage'],
-[data-wl-class~='HotelsBookPay__header'],
+[data-wl-class~="HotelPage__HotelPage"],
+[data-wl-class~="HotelsBookPay__header"],
 [data-wl-class~="HotelsSerp__content"] {
   border-top-color: red !important;
 }
@@ -324,17 +324,17 @@ fieldset[disabled] .btn-primary.focus {
 .filtr-block .tabs > li.active > a,
 .nav-bar .nav-bar-table tr td a.active,
 .search-forms .avia-search-form .search-type-filter > .btn.active,
-[data-wl-class~='TrainNav__type--isSelected'] [data-wl-class='TrainNav__content'],
+[data-wl-class~="TrainNav__type--isSelected"] [data-wl-class~="TrainNav__content"],
 .active-head-tab {
   border-bottom-color: red !important;
 }
 /* Border color */
-[data-wl-class~=' Day__Day--isHovered'],
+[data-wl-class~="Day__Day--isHovered"],
 .lk-head-btn:hover,
 .lk-head-btn:focus,
 [data-wl-class~="CheckButton__CheckButton"],
 .horizontal-filtr a.active,
-[data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__button'],
+[data-wl-class~="HotelsSerp__hotels"] [data-wl-class~="DropdownTrigger__button"],
 [data-wl-class~="DropdownTrigger__button"] {
   border-color: red !important;
 }
@@ -346,10 +346,10 @@ fieldset[disabled] .btn-primary.focus {
 .forms-tabs li a:focus,
 .nav-bar .mobile-menu .navbar-collapse ul li a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:focus,
-[data-wl-class~='HotelsIndex__deals'] .deals-description,
-[data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] [data-wl-class~='MenuItem__inner'],
-[data-wl-class="DropdownTrigger__value DropdownTrigger__value--product-railways"],
-[data-wl-class~='HotelsSerp__hotels'] [data-wl-class~='DropdownTrigger__value'],
+[data-wl-class~="HotelsIndex__deals"] .deals-description,
+[data-wl-class~="TabsList__TabsList--theme-hotel-page"] [data-wl-class~="MenuItem__MenuItem--isActive"] [data-wl-class~="MenuItem__inner"],
+[data-wl-class~="DropdownTrigger__value DropdownTrigger__value--product-railways"],
+[data-wl-class~="HotelsSerp__hotels"] [data-wl-class~="DropdownTrigger__value"],
 [data-wl-class~="StarRating__StarRating"],
 [data-wl-class~="HotelPageHeader__city"],
 [data-wl-class~="DropdownTrigger__value"] {
@@ -358,15 +358,16 @@ fieldset[disabled] .btn-primary.focus {
 /* Background color */
 .calendar .uib-datepicker-popup .btn.btn-default.active,
 .calendar .uib-datepicker-popup .btn.btn-default:active,
-[data-wl-class~='HotelsSerp__header'],
+[data-wl-class~="HotelsSerp__header"],
 .mobile-menu .dropdown-menu li.main-menu-item.active a,
 .baggageTariff .service-box .mb-service-value,
 [data-wl-class~="CheckButton__CheckButton CheckButton__CheckButton--isActive"],
 .nav-bar .mobile-menu .navbar-collapse ul li.active a,
-[data-wl-class="HotelsSerpList__hotel-card"]:after {
+[data-wl-class~="HotelsSerpList__hotel-card"]:after {
   background-color: red !important;
   background-image: none !important;
 }
+[data-wl-class~="Day__Day--isBetweenSelectedDates"],
 .pika-button:hover,
 .pika-button:focus,
 .pika-button:active,
@@ -375,65 +376,65 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #ff3333 !important;
   background-image: none !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a {
   color: white !important;
   background-color: red !important;
   background-image: none !important !important;
   border-color: red !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.focus {
   color: white !important;
   background-color: #cc0000 !important;
   border-color: #800000 !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:hover {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:hover {
   color: white !important;
   background-color: #cc0000 !important;
   border-color: #c20000 !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active,
-.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:active,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.active,
+.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a {
   color: white !important;
   background-color: #cc0000 !important;
   border-color: #c20000 !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active:hover,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active:hover,
-.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:hover,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active:focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active:focus,
-.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active.focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active.focus,
-.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:active:hover,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.active:hover,
+.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:hover,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:active:focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.active:focus,
+.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:active.focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.active.focus,
+.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.focus {
   color: white !important;
   background-color: #a80000 !important;
   border-color: #800000 !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:active,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.active,
-.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:active,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.active,
+.open > .dropdown-toggle[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a {
   background-image: none !important !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.disabled:hover,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a[disabled]:hover,
-fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:hover,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.disabled:focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a[disabled]:focus,
-fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a:focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.disabled.focus,
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a[disabled].focus,
-fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a.focus {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.disabled:hover,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a[disabled]:hover,
+fieldset[disabled] [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:hover,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.disabled:focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a[disabled]:focus,
+fieldset[disabled] [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a:focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.disabled.focus,
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a[disabled].focus,
+fieldset[disabled] [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a.focus {
   background-color: red !important;
   border-color: red !important;
 }
-[data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a .badge {
+[data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a .badge {
   color: red !important;
   background-color: white !important;
 }
-[data-wl-class~='TabsList__TabsList--theme-hotel-page'] [data-wl-class~='MenuItem__MenuItem--isActive'] {
+[data-wl-class~="TabsList__TabsList--theme-hotel-page"] [data-wl-class~="MenuItem__MenuItem--isActive"] {
   background-color: transparent !important;
   box-shadow: inset 0 -4px red !important;
 }
@@ -441,7 +442,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .is-selected .pika-button:hover,
 .is-selected .pika-button:focus,
 .is-selected .pika-button:active,
-[data-wl-class~='Day__Day--isSelected'],
+[data-wl-class~="Day__Day--isSelected"],
 [data-wl-class~="CheckButton__CheckButton--isActive"],
 .avia-search-block .search-form .btn-group > a.active {
   color: white !important;
