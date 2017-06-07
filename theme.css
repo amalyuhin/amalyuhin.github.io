@@ -329,6 +329,7 @@ fieldset[disabled] .btn-primary.focus {
   border-bottom-color: red !important;
 }
 /* Border color */
+[data-wl-class~=' Day__Day--isHovered'],
 .lk-head-btn:hover,
 .lk-head-btn:focus,
 [data-wl-class~="CheckButton__CheckButton"],
@@ -338,6 +339,7 @@ fieldset[disabled] .btn-primary.focus {
   border-color: red !important;
 }
 /* Color */
+.is-today .pika-button,
 .forms-tabs li:hover a,
 .forms-tabs li:hover a:hover,
 .forms-tabs li:focus a,
@@ -439,6 +441,7 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
 .is-selected .pika-button:hover,
 .is-selected .pika-button:focus,
 .is-selected .pika-button:active,
+[data-wl-class~='Day__Day--isSelected'],
 [data-wl-class~="CheckButton__CheckButton--isActive"],
 .avia-search-block .search-form .btn-group > a.active {
   color: white !important;
