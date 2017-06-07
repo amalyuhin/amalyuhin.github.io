@@ -354,10 +354,6 @@ fieldset[disabled] .btn-primary.focus {
   color: red !important;
 }
 /* Background color */
-.is-selected .pika-button,
-.is-selected .pika-button:hover,
-.is-selected .pika-button:focus,
-.is-selected .pika-button:active,
 .calendar .uib-datepicker-popup .btn.btn-default.active,
 .calendar .uib-datepicker-popup .btn.btn-default:active,
 [data-wl-class~='HotelsSerp__header'],
@@ -439,6 +435,10 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   background-color: transparent !important;
   box-shadow: inset 0 -4px red !important;
 }
+.is-selected .pika-button,
+.is-selected .pika-button:hover,
+.is-selected .pika-button:focus,
+.is-selected .pika-button:active,
 [data-wl-class~="CheckButton__CheckButton--isActive"],
 .avia-search-block .search-form .btn-group > a.active {
   color: white !important;
@@ -446,10 +446,9 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   background-image: none !important;
 }
 /* Color contrast*/
-.is-selected .pika-button,
-.is-selected .pika-button:hover,
-.is-selected .pika-button:focus,
-.is-selected .pika-button:active,
+.pika-button:hover,
+.pika-button:focus,
+.pika-button:active,
 .calendar .uib-datepicker-popup .btn.btn-default:hover,
 .calendar .uib-datepicker-popup .btn.btn-default:focus,
 .calendar .uib-datepicker-popup .btn.btn-default.active,
