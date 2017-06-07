@@ -354,6 +354,12 @@ fieldset[disabled] .btn-primary.focus {
   color: red !important;
 }
 /* Background color */
+.is-selected .pika-button,
+.is-selected .pika-button:hover,
+.is-selected .pika-button:focus,
+.is-selected .pika-button:active,
+.calendar .uib-datepicker-popup .btn.btn-default.active,
+.calendar .uib-datepicker-popup .btn.btn-default:active,
 [data-wl-class~='HotelsSerp__header'],
 .mobile-menu .dropdown-menu li.main-menu-item.active a,
 .baggageTariff .service-box .mb-service-value,
@@ -361,6 +367,14 @@ fieldset[disabled] .btn-primary.focus {
 .nav-bar .mobile-menu .navbar-collapse ul li.active a,
 [data-wl-class="HotelsSerpList__hotel-card"]:after {
   background-color: red !important;
+  background-image: none !important;
+}
+.pika-button:hover,
+.pika-button:focus,
+.pika-button:active,
+.calendar .uib-datepicker-popup .btn.btn-default:hover,
+.calendar .uib-datepicker-popup .btn.btn-default:focus {
+  background-color: #ff3333 !important;
   background-image: none !important;
 }
 [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropdown__overlay "] a {
@@ -432,6 +446,14 @@ fieldset[disabled] [data-wl-class~="Dropdown__Dropdown "] [data-wl-class~="Dropd
   background-image: none !important;
 }
 /* Color contrast*/
+.is-selected .pika-button,
+.is-selected .pika-button:hover,
+.is-selected .pika-button:focus,
+.is-selected .pika-button:active,
+.calendar .uib-datepicker-popup .btn.btn-default:hover,
+.calendar .uib-datepicker-popup .btn.btn-default:focus,
+.calendar .uib-datepicker-popup .btn.btn-default.active,
+.calendar .uib-datepicker-popup .btn.btn-default:active,
 .rzhd-btn__inner,
 .mobile-menu .dropdown-menu li.main-menu-item.active a,
 .baggageTariff .service-box .mb-service-value,
