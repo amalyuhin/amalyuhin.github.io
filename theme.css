@@ -373,7 +373,7 @@ fieldset[disabled] .btn-primary.focus {
 .pika-button:active,
 .calendar .uib-datepicker-popup .btn.btn-default:hover,
 .calendar .uib-datepicker-popup .btn.btn-default:focus {
-  background-color: #ff3333 !important;
+  background-color: #ff4d4d !important;
   background-image: none !important;
 }
 [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="Dropdown__overlay"] a {
