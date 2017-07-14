@@ -1,0 +1,6 @@
+.search-forms,
+.appContainer [data-wl-class~=HotelsSearchForm__HotelsSearchForm]:not([data-wl-class~=HotelsSearchForm__HotelsSearchForm_theme_without-destination-search]),
+.appContainer .form-container #rzhd_form,
+.profile-container {
+  background-color: pink
+}
