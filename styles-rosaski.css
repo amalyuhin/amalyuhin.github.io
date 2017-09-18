@@ -271,8 +271,7 @@ search-form > div > div.clearfix > div > a:before {
 
     width: 192px;
 }
-.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group,
-.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-control-group:first-child .form-group:first-child {
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group {
     background-color: #e5ffff;
     background-image: none;
     border: 2px solid #3fcde0;
