@@ -437,7 +437,7 @@ a.btn.btn-red:before {
 }
 
 @media (max-width: 530px) {
-    .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-control-group .form-group {
-        border: 2px solid #3fcde0;
+    .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-control-group:first-child .form-group:first-child {
+        border-right: 2px solid #3fcde0;
     }
 }
