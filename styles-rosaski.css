@@ -99,7 +99,10 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
 
 
 .avia-search-form-wrap .avia-search-form .avia-search-button {
-   padding: 9px 43px 10px 10px; 
+    padding: 9px 43px 10px 10px; 
+}
+.avia-search-form-wrap .avia-search-form .change-directions-lnk {
+    border: 2px solid #3fcde0;
 }
 .btn.btn-lg {
     display: inline-block;
