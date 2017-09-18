@@ -314,6 +314,7 @@ search-form > div > div.clearfix > div > a:before {
     width: 45px;
     height: 29px;
     background: url(https://shop.rosaski.com/images/icons/icon_cal.png) 18px 6px no-repeat;
+    box-shadow: none;
     position: absolute;
     right: 0;
     top: 10px;
