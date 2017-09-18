@@ -106,9 +106,16 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
 }
 .avia-search-form-wrap .avia-search-form .change-directions-lnk {
     border: 2px solid #3fcde0;
+    outline: none;
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields-extra .form-group.__wide-button .btn {
-    padding: 10px 16px;
+    padding: 12px 16px;
+    height: 52px;
+}
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields-extra .form-group.__short {
+    background-color: #e5ffff;
+    background-image: none;
+    border: 2px solid #3fcde0;
 }
 .btn.btn-lg {
     display: inline-block;
