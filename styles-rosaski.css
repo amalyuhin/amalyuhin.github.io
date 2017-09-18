@@ -1,0 +1,400 @@
+body {
+background-color: transparent;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    background: #fff;
+    padding-top: 35px;
+    padding-bottom:35px;
+}
+body > app > div.wrapper > div > div > div > booking > div > div > div > form > a {
+  background: silver !important;
+  padding: 9px !important;
+  text-transform: none !important;
+}
+
+.controls .btn {     display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font: 18px/1 "ITCOfficinaSansW10-Md", Calibri, "Trebuchet MS", Arial, sans-serif !important;
+    cursor: pointer;
+    outline: none;
+    text-transform: none;
+    padding: 9px 20px;
+    margin: 0;
+    border: 0px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: none;
+    background-color: #3DBF65;
+    position: relative;
+    color: #036;
+    text-transform: none;
+    background-color: #b4dc08;
+    position: relative;
+    padding: 9px 43px 10px 10px;
+    border-radius: 0px !important;
+}
+.controls .btn:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #036;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+}
+.baggageTariff-table tfoot td a.btn {     display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font: 18px/1 "ITCOfficinaSansW10-Md", Calibri, "Trebuchet MS", Arial, sans-serif !important;
+    cursor: pointer;
+    outline: none;
+    text-transform: none;
+    padding: 9px 20px;
+    margin: 0;
+    border: 0px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: none;
+    background-color: #3DBF65;
+    position: relative;
+    color: #036;
+    text-transform: none;
+    background-color: #b4dc08;
+    position: relative;
+    padding: 9px 43px 10px 10px;
+    border-radius: 0px !important;
+}
+.baggageTariff-table tfoot td a.btn:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #036;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+}
+
+
+
+.btn.btn-lg {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font: 18px/1 "ITCOfficinaSansW10-Md", Calibri, "Trebuchet MS", Arial, sans-serif !important;
+    cursor: pointer;
+    outline: none;
+    text-transform: none;
+    padding: 9px 20px;
+    margin: 0;
+    border: 0px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: none;
+    background-color: #3DBF65;
+    position: relative;
+    color: #036;
+    text-transform: none;
+    background-color: #b4dc08;
+    position: relative;
+    padding: 9px 43px 10px 10px;
+    border-radius: 0px !important;
+}
+button.btn.btn-lg:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #036;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+}
+body > app > div.wrapper > div > div > div > booking > div > div > div > form > a:before {
+    background: none;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+  }
+
+  body > app > div.wrapper > div > div > div > booking > div > div > div > form > a {
+      background: silver;
+    }
+
+
+.action-row .btn {
+  text-decoration: none;
+text-align: center;
+/* padding: 16px 36px; */
+border: none;
+-webkit-border-radius: 0px;
+font: 18px/1 "ITCOfficinaSansW10-Md", Calibri, "Trebuchet MS", Arial, sans-serif !important;
+-moz-border-radius: 0px;
+border-radius: 0px;
+font: 12px Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #ffffff;
+/* background-color: #036; */
+background: none repeat scroll 0 0 #cc0081;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+filter: none;
+position: relative;
+background-image: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+margin-bottom: 20px;
+margin-top: 20px;
+padding: 7px 40px 7px 12px;
+/* font-size: 12px !important; */
+color: white;
+font-family: "Fedra Sans Pro", arial;
+font-size: 14px;
+font-weight: 300;
+text-transform: none;
+border: none;
+}
+.action-row .btn:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #3fcde0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+}
+.ticket-preview .footer .btn:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #3fcde0;
+    content: "";
+    height: 100%;
+
+    background-size: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 19px;
+}
+.ticket-preview .footer .btn {
+    padding: 9px 10px;
+    color: #fff !important;
+    text-transform: none;
+    background-color: #cc0081 !important;
+    position: relative;
+    padding: 3px 25px 5px 11px !important;
+    border-radius: 0px !important;
+    border:0px;
+}
+search-form > div > div.clearfix > div > a {
+  padding: 9px 10px;
+  color: #fff;
+  text-transform: none;
+  background-color: #b4dc08 !important;
+  position: relative;
+  padding: 10px 41px 10px 11px !important;
+  border-radius: 0px !important;
+  border:0px;
+}
+.well {
+
+    padding-top: 12px;
+}
+search-form > div > div.clearfix > div > a:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #036;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+}
+.ticket-preview .footer .btn span {
+  font-size:12px;
+}
+.ticket-preview .footer .btn span span {
+    font-size: 12px;
+}
+.content {
+    float: left;
+    width: 600px;
+}
+.ticket-preview.middle {
+    width: 294px;
+
+}
+.ticket-preview {
+    /* float: left; */
+
+    width: 192px;
+}
+.avia-search-block .search-form .form-control,.avia-search-block .search-form .calendar .form-control,.avia-search-block .search-form .custom-selectbox .form-control {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 44px;
+    background-color: white;
+    border: 1px solid #dadde1;
+    border-radius: 4px;
+    z-index:1;
+    padding: 0 20px;
+    margin-bottom: 28px;
+    background-color: #e5ffff;
+    background-image: none;
+    border: 2px solid #3fcde0;
+    border-radius: 0;
+    font: 14px/1 Arial,sans-serif;
+
+    padding: 3px 3px 3px 12px;
+    vertical-align: middle;
+    color: #036;
+    height: 30px;
+}
+.avia-search-block .search-form .calendar:after {
+    content: '';
+    width: 45px;
+    height: 29px;
+    background: url(https://shop.rosaski.com/images/icons/icon_cal.png) 18px 6px no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+.avia-search-block .search-form .custom-selectbox:before {
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 29px;
+    background: #fff;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+.avia-search-block .search-form .custom-selectbox:after {
+    top: 13px;
+    right: 13px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 4px solid #848bb2;
+    z-index: 2;
+}
+
+.avia-search-block .search-form .custom-selectbox > ul {
+    margin-top: -15px;
+}
+.avia-search-block .search-form .btn-group > a.active {
+    border-color: #036;
+    background-color: #036;
+}
+.btn,.btn:hover {
+
+
+
+}
+body > app > div.wrapper > div > div > div > booking > div > div > div > form > a {
+  background: silver !important;
+  padding: 9px !important;
+  text-transform: none !important;
+}
+
+.overall {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: url(assets/img/overall.png) 0 0 repeat;
+    background: transparent;
+}
+.btn.btn-lg.long {
+    padding: 13px 43px 13px 18px;
+}
+
+.selectedAirCmpVariants .item-row td.active .info, .selectedAirCmpVariants .item-row td.available .info {
+    position: relative;
+    background: #036;
+    color: #fff;
+}
+.selectedAirCmpVariants .item-row td.active .info:after, .selectedAirCmpVariants .item-row td.available .info:after {
+    border-left-color: #036;
+}
+.btn.btn-red:hover, .btn.btn-red:focus {
+    background: #3a4a8d;
+}
+.selectedAirCmpVariants .price-block .btn {
+    text-align: left;
+}
+.selectedAirCmpVariants .price-block .btn .large {
+    font-size: 14px;
+}
+.btn.btn-red {
+    font-family: Helvetica, sans-serif;
+    background: -moz-linear-gradient(top, #3DBF5C 0%, #3a4a8d 100%);
+    background: linear-gradient(to bottom, #3DBF5C 0%, #3a4a8d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3DBF5C', endColorstr='#3a4b8c', GradientType=0);
+    display: inline-block;
+    vertical-align: left;
+    font-size: 21px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-decoration: none;
+    font: 14px/1 "ITCOfficinaSansW10-Md", Calibri, "Trebuchet MS", Arial, sans-serif !important;
+    cursor: pointer;
+    outline: none;
+    margin: 0;
+    border: 0px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: none;
+    color: #036;
+    text-transform: none;
+    background-color: #b4dc08;
+    position: relative;
+    border-radius: 0px !important;
+}
+a.btn.btn-red:before {
+    background: url(https://shop.rosaski.com/images/decoration/step_right.png) no-repeat scroll 50% 50% #036;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+}
+.btn.btn-red:hover, .btn.btn-red:focus {
+    background: #b4dc08;
+}
