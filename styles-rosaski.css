@@ -20,6 +20,10 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
   text-transform: none !important;
 }
 
+.form-title {
+    margin: 0;
+}
+
 .controls .btn {     display: inline-block;
     vertical-align: middle;
     color: #fff;
