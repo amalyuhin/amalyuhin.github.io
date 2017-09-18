@@ -126,6 +126,9 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
     border: 2px solid #3fcde0;
     top: 5px;
 }
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-control-group:first-child .form-group .iata-label {
+    line-height: 34px;
+}
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields-extra .form-group.__wide-button .btn {
     padding: 7px 16px;
     height: 38px;
