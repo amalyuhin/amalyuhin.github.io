@@ -97,20 +97,24 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
     width: 28px;
 }
 
-
+.avia-search-form-wrap .avia-search-form .form-control {
+    height: 34px;
+    line-height: 34px;
+}
 .avia-search-form-wrap .avia-search-form .avia-search-button {
     display: block;
-    height: 52px;
+    height: 38px;
     margin: auto;
     padding: 9px 43px 10px 10px; 
 }
 .avia-search-form-wrap .avia-search-form .change-directions-lnk {
     border: 2px solid #3fcde0;
     outline: none;
+    top: 5px;
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields-extra .form-group.__wide-button .btn {
-    padding: 12px 16px;
-    height: 52px;
+    padding: 7px 16px;
+    height: 38px;
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields-extra .form-group.__short {
     background-color: #e5ffff;
@@ -291,6 +295,7 @@ search-form > div > div.clearfix > div > a:before {
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:after {
     box-shadow: inset -40px 0 20px -20px #e5ffff;
+    height: 34px;
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:hover:after {
     box-shadow: inset -40px 0 20px -20px #d7efef;
@@ -327,7 +332,7 @@ search-form > div > div.clearfix > div > a:before {
     box-shadow: none;
     position: absolute;
     right: 0;
-    top: 10px;
+    top: 2px;
     bottom: 0;
     z-index: 1;
     border-left: none;
