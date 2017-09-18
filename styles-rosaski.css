@@ -2,6 +2,10 @@ body {
 background-color: transparent;
 }
 
+.banner-avia, best-deals {
+    display: none;
+}
+
 .wrapper {
     min-height: 100%;
     height: auto !important;
