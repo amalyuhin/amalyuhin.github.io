@@ -308,14 +308,14 @@ search-form > div > div.clearfix > div > a:before {
     color: #036;
     height: 30px;
 }
-.avia-search-block .search-form .calendar:after {
+.avia-search-form-wrap .avia-search-form .avia-search-form__content.__multiway .avia-search-form__fields .form-control-group .form-group .calendar:after {
     content: '';
     width: 45px;
     height: 29px;
     background: url(https://shop.rosaski.com/images/icons/icon_cal.png) 18px 6px no-repeat;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 10px;
     bottom: 0;
     z-index: 1;
     border-left: none;
