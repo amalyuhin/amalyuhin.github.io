@@ -435,3 +435,9 @@ a.btn.btn-red:before {
         border-right: none;
     }
 }
+
+@media (max-width: 530px) {
+    .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-control-group .form-group {
+        border: 2px solid #3fcde0;
+    }
+}
