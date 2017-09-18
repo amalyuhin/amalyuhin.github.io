@@ -98,7 +98,9 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
 }
 
 
-
+.avia-search-form-wrap .avia-search-form .avia-search-button {
+   padding: 9px 43px 10px 10px; 
+}
 .btn.btn-lg {
     display: inline-block;
     vertical-align: middle;
