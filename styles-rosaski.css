@@ -260,6 +260,20 @@ search-form > div > div.clearfix > div > a:before {
 
     width: 192px;
 }
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group {
+    background-color: #e5ffff;
+    background-image: none;
+    border: 2px solid #3fcde0;
+}
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:hover {
+    background: #d7efef;
+}
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:after {
+    box-shadow: inset -40px 0 20px -20px #e5ffff;
+}
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:hover:after {
+    box-shadow: inset -40px 0 20px -20px #d7efef;
+}
 .avia-search-block .search-form .form-control,.avia-search-block .search-form .calendar .form-control,.avia-search-block .search-form .custom-selectbox .form-control {
     font-family: Arial, sans-serif;
     font-size: 15px;
