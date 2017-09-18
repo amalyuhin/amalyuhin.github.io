@@ -308,7 +308,8 @@ search-form > div > div.clearfix > div > a:before {
     color: #036;
     height: 30px;
 }
-.avia-search-form-wrap .avia-search-form .avia-search-form__content.__multiway .avia-search-form__fields .form-control-group .form-group .calendar:after {
+.avia-search-form-wrap .avia-search-form .avia-search-form__content.__multiway .avia-search-form__fields .form-control-group .form-group .calendar:after,
+.avia-search-form-wrap .avia-search-form .avia-search-form__content.__multiway .avia-search-form__fields .form-control-group .form-group.calendar:after {
     content: '';
     width: 45px;
     height: 29px;
