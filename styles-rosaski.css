@@ -105,6 +105,9 @@ body > app > div.wrapper > div > div > div > booking > div > div > div > form > 
 .avia-search-form-wrap .avia-search-form .change-directions-lnk {
     border: 2px solid #3fcde0;
 }
+.avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields-extra .form-group.__wide-button .btn {
+    padding: 10px 16px;
+}
 .btn.btn-lg {
     display: inline-block;
     vertical-align: middle;
