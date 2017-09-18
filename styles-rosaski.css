@@ -11,6 +11,10 @@ body {
     display: none;
 }
 
+.avia-search-form-wrap {
+    padding: 15px 10px 64px 10px;
+}
+
 .wrapper {
     min-height: 100%;
     height: auto !important;
