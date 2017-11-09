@@ -807,8 +807,8 @@ a,
 body,
 .tw-page,
 .ui-page {
-  background: #EBEDF0;
-  color: #000;
+  background: #2b2b2b;
+  color: #fff;
 }
 .ui-overlay-white,
 .ui-page-theme-white {
@@ -3304,7 +3304,7 @@ body.ui-overlay-landing .tw-radiogroup > label.tw-checked {
   position: relative;
   height: 72px;
   width: 100%;
-  background-color: #3a3a3a;
+  background-color: #ffcc23;
   text-align: center;
   margin-bottom: 15px;
   padding: 0 10px;
