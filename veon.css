@@ -3323,6 +3323,9 @@ body.ui-overlay-landing .tw-radiogroup > label.tw-checked {
   width: 48px;
   height: 48px;
 }
+.b-header__logo-img {
+  height: 48px;
+}
 .b-header__nav-wrap {
   display: inline-block;
   width: 44px;
