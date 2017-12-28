@@ -188,12 +188,20 @@ body.appContainer div[data-wl-class~="Autocomplete__overlay"] {
 [data-wl-class~="title__guests-tip-icon"] svg path {
   fill: #82b23b !important;
 }
+[data-wl-class~='HotelOfferRoom__HotelOfferRoom'] [data-wl-class~='HotelOfferRoom__button'],
+[data-wl-class~="HotelsCard__footer__button"] {
+  background: #82b23b !important;
+  border: 1px solid #82b23b !important;
+}
 body [data-wl-class~='NewTrainCard__button'],
 .content-wrap .btn.btn-grey,
 .content-wrap .btn-primary,
 .ticket .head .btn.btn-default,
 [data-wl-class~='HotelOfferRoom__HotelOfferRoom'] [data-wl-class~='HotelOfferRoom__button'],
 [data-wl-class~="HotelsCard__footer__button"] {
+  background: #82b23b;
+  border: 1px solid #82b23b;
+  box-shadow: none;
   border-radius: 20px;
 }
 body.appContainer .form-container #rzhd_form .rzhd-form__submit .rzhd-btn:hover,
@@ -208,13 +216,25 @@ body.appContainer [data-wl-class~="SubmitButton__SubmitButton--theme-blue"]:hove
 [data-wl-class~="HotelsCard__footer__button"]:hover,
 .btn-primary:hover {
   background: #82b23b !important;
-  border: none !important;
+  border: 1px solid #82b23b !important;
   box-shadow: 0px 5px 13px rgba(0,0,0,.22) !important;
 }
+[data-wl-class~='HotelsPayForm--isRenderCreditCard__submit-button'] [data-wl-class~='SubmitButton__SubmitButton--submit-button-new'],
 [data-wl-class~='GoBack__GoBack--railways'] [data-wl-class~='GoBack__inner'],
 body.appContainer [data-wl-class~="ActionButton__ActionButton"],
 body.appContainer [data-wl-class~="ActionButton__inner"] {
+  background: #82b23b;
+  border: 1px solid #82b23b;
+  box-shadow: none;
   border-radius: 50px !important;
+}
+[data-wl-class~='HotelsPayForm--isRenderCreditCard__submit-button'] [data-wl-class~='SubmitButton__SubmitButton--submit-button-new']:hover,
+[data-wl-class~='GoBack__GoBack--railways'] [data-wl-class~='GoBack__inner']:hover,
+body.appContainer [data-wl-class~="ActionButton__ActionButton"]:hover,
+body.appContainer [data-wl-class~="ActionButton__inner"]:hover {
+  background: #82b23b;
+  border: 1px solid #82b23b;
+  box-shadow: 0px 5px 13px rgba(0,0,0,.22);
 }
 /*
 
@@ -472,6 +492,20 @@ body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [d
 .container .input-group .input-group-addon ~ .form-control {
   margin-bottom: 0;
 }
+.ngdialog .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #bbbcbc;
+  border-radius: 0;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 10px;
+}
+.ngdialog .form-control:focus {
+  border: none !important;
+  border-bottom: 1px solid #82b23b !important;
+  box-shadow: none !important;
+}
 [data-wl-class~="title__form-field--first"] {
   border: none;
 }
@@ -557,6 +591,7 @@ body.appContainer [data-wl-class~="HotelsHeader__HotelsHeader--isViewForm"] [dat
 body.appContainer [data-wl-class~="HotelsHeader__HotelsHeader--isViewForm"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"]:hover {
   background: #b2d47f !important;
 }
+body.appContainer [data-wl-class~="HotelPageHeader__button"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"],
 body.appContainer [data-wl-class~="HotelsBookPay__book"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"] {
   border-radius: 50px;
 }
