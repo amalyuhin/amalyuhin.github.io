@@ -65,14 +65,14 @@ body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
   opacity: 1 !important;
   left: 50% !important;
   top: 50% !important;
-  border-radius: 50% !important;
+  border-radius: 2px !important;
   transform: translate(-50%, -50%) !important;
 }
 .white-block {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
 }
 .filtr-block {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   border: none;
 }
 .filtr-block .filtr-controls > li .avia-stars-rating {
@@ -121,18 +121,6 @@ body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
 .baggageTariff .baggagePic.__unlocked path {
   fill: #82b23b;
 }
-.baggageTariff-table thead tr th {
-  border: none;
-  background-color: #f0efed;
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-.baggageTariff-table tbody tr td {
-  border: none;
-  border-bottom: 1px solid #e5e5e3;
-  background-color: transparent;
-}
 .ticket-preview {
   border: none;
   box-shadow: 0 1px 3px rgba(0,0,0,.08);
@@ -149,17 +137,13 @@ body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
 .edit-search-params-button {
   border-radius: 50%;
 }
+body.appContainer div[data-wl-class~="AdvancedDatepicker__calendar"],
 .avia-search-form-wrap .avia-search-form .popover,
 .ott-datepicker-popup,
 .avia-search-form-wrap .avia-search-form [uib-typeahead-popup].dropdown-menu {
   margin-top: 0;
   border-top: 3px solid #82b23b;
   box-shadow: 0 1px 3px rgba(0,0,0,.08);
-}
-body.appContainer div[data-wl-class~="AdvancedDatepicker__calendar"] {
-  margin-top: 0;
-  border-top: 3px solid #82b23b;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 body.appContainer div[data-wl-class~="Autocomplete__overlay"] {
   margin-top: 1px;
@@ -187,45 +171,6 @@ body.appContainer div[data-wl-class~="Autocomplete__overlay"] {
 }
 [data-wl-class~="HotelsCard__info__sale"] {
   background-image: linear-gradient(-90deg, rgba(63, 190, 96, 0), #cd1c2a 24%);
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] {
-  border: 1px solid #ccd5d7;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg {
-  background: none !important;
-  border-radius: 2px !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] {
-  border: 1px solid #ccd5d7 !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg {
-  background: none !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg path {
-  fill: #82b23b;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] svg path {
-  fill: #82b23b !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] {
-  border: 1px solid #ccd5d7 !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg {
-  background: none !important;
-  border-radius: 2px !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg path {
-  fill: #82b23b !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] {
-  border: 1px solid #ccd5d7 !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg {
-  background: none !important;
-  border-radius: 2px !important;
-}
-[data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg path {
-  fill: #82b23b;
 }
 .is-selected .pika-button,
 .is-selected .pika-button:hover,
@@ -262,11 +207,10 @@ body.appContainer [data-wl-class~="SubmitButton__SubmitButton--theme-blue"]:hove
 [data-wl-class~="SubmitButton__SubmitButton"]:hover,
 [data-wl-class~="HotelsCard__footer__button"]:hover,
 .btn-primary:hover {
-  background-color: #82b23b !important;
-  border-color: #82b23b !important;
-  box-shadow: 0 5px 13px rgba(0, 0, 0, 0.22) !important;
+  background: #82b23b !important;
+  border: none !important;
+  box-shadow: 0px 5px 13px rgba(0,0,0,.22) !important;
 }
-[data-wl-class~='SubmitButton__SubmitButton--submit-button-new'],
 [data-wl-class~='GoBack__GoBack--railways'] [data-wl-class~='GoBack__inner'],
 body.appContainer [data-wl-class~="ActionButton__ActionButton"],
 body.appContainer [data-wl-class~="ActionButton__inner"] {
@@ -410,6 +354,45 @@ body.appContainer [data-wl-class~="title__wishes-item__checkbox"] [data-wl-class
   left: 0;
   top: 0;
 }
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] {
+  border: 1px solid #ccd5d7;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg {
+  background: none !important;
+  border-radius: 2px !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] {
+  border: 1px solid #ccd5d7 !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg {
+  background: none !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg path {
+  fill: #82b23b;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] svg path {
+  fill: #82b23b !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] {
+  border: 1px solid #ccd5d7 !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg {
+  background: none !important;
+  border-radius: 2px !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg path {
+  fill: #82b23b !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] {
+  border: 1px solid #ccd5d7 !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg {
+  background: none !important;
+  border-radius: 2px !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg path {
+  fill: #82b23b;
+}
 /* TOGGLE BUTTON*/
 [data-wl-class~="NewToggleButton__NewToggleButton"] {
   border: 2px solid #dfe3e6;
@@ -549,4 +532,41 @@ body.appContainer [data-wl-class~="App__App"] [data-wl-class~="Input__isFocused"
 .card-form .card-number-fields .form-control:last-child {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+}
+.nav-bar .nav-bar-table tr td a {
+  text-decoration: none !important;
+}
+.baggageTariff-table thead tr th,
+.table thead tr th {
+  border: none;
+  background-color: #f0efed;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.baggageTariff-table tbody tr td,
+.table tbody tr td {
+  border: none;
+  border-bottom: 1px solid #e5e5e3;
+  background-color: transparent;
+}
+body.appContainer [data-wl-class~="HotelsHeader__HotelsHeader--isViewForm"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"] {
+  background: #9bc858 !important;
+  box-shadow: 0px 5px 13px rgba(0,0,0,.22) !important;
+}
+body.appContainer [data-wl-class~="HotelsHeader__HotelsHeader--isViewForm"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"]:hover {
+  background: #b2d47f !important;
+}
+body.appContainer [data-wl-class~="HotelsBookPay__book"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"] {
+  border-radius: 50px;
+}
+body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper,
+body.appContainer .form-container #rzhd_form .rzhd-form-station__helper {
+  top: 100%;
+}
+body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper .rzhd-pikaday,
+body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-pikaday,
+body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper .rzhd-helper,
+body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-helper {
+  border-top: 3px solid #82b23b;
 }
