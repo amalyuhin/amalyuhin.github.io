@@ -472,6 +472,9 @@ body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [d
   box-shadow: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin-bottom: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 .container .form-control:focus {
   border: none !important;
@@ -604,4 +607,21 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-pi
 body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper .rzhd-helper,
 body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-helper {
   border-top: 3px solid #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] {
+  border-top: 3px solid #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:first-child > div:nth-child(2) {
+  color: #fff;
+  background: #82b23b;
+  border-color: #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:nth-child(2),
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:first-child {
+  color: #fff;
+  background: #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:nth-child(2) svg,
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:first-child svg {
+  fill: #fff;
 }
