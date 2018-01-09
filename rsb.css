@@ -625,3 +625,168 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-he
 [data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:first-child svg {
   fill: #fff;
 }
+@-webkit-keyframes uil-default-anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes uil-default-anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] {
+  transform: scale(0.6);
+  position: relative;
+  background: none;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div {
+  display: block;
+  top: 80px;
+  left: 93px;
+  width: 14px;
+  height: 40px;
+  background: #82b23b;
+  border-radius: 10px;
+  position: absolute;
+  animation: uil-default-anim 1s linear infinite;
+  padding: 0;
+  margin: 0;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:before,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:after {
+  content: '';
+  display: block;
+  top: 80px;
+  left: 93px;
+  width: 14px;
+  height: 40px;
+  background: #82b23b;
+  border-radius: 10px;
+  position: absolute;
+  animation: uil-default-anim 1s linear infinite;
+  padding: 0;
+  margin: 0;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div > div {
+  display: block;
+  top: 80px;
+  left: 93px;
+  width: 14px;
+  height: 40px;
+  background: #82b23b;
+  border-radius: 10px;
+  position: absolute;
+  animation: uil-default-anim 1s linear infinite;
+  padding: 0;
+  margin: 0;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div > div:before,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div > div:after {
+  content: '';
+  display: block;
+  top: 80px;
+  left: 93px;
+  width: 14px;
+  height: 40px;
+  background: #82b23b;
+  border-radius: 10px;
+  position: absolute;
+  animation: uil-default-anim 1s linear infinite;
+  padding: 0;
+  margin: 0;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child {
+  transform: rotate(0deg) translate(0, -60px);
+  animation-delay: -1s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child:before {
+  top: 60px;
+  left: 0px;
+  transform: rotate(30deg) translate(0, -60px);
+  animation-delay: -0.91666667s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child:after {
+  top: 60px;
+  left: 0px;
+  transform: rotate(60deg) translate(0, -60px);
+  animation-delay: -0.83333333s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div {
+  left: 0;
+  top: 60px;
+  transform: rotate(90deg) translate(0, -60px);
+  animation-delay: -0.75s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div:before {
+  top: 60px;
+  left: 0px;
+  transform: rotate(30deg) translate(0, -60px);
+  animation-delay: -0.66666667s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div:after {
+  top: 60px;
+  left: 0px;
+  transform: rotate(60deg) translate(0, -60px);
+  animation-delay: -0.58333333s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div div,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div span,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div svg,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div img,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:first-child > div p {
+  display: none;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child {
+  transform: rotate(180deg) translate(0, -60px);
+  animation-delay: -0.5s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child:before {
+  top: 60px;
+  left: 0;
+  transform: rotate(30deg) translate(0, -60px);
+  animation-delay: -0.41666667s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child:after {
+  top: 60px;
+  left: 0;
+  transform: rotate(60deg) translate(0, -60px);
+  animation-delay: -0.33333333s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div {
+  top: 60px;
+  left: 120px;
+  font-size: 0;
+  text-indent: -999999em;
+  transform: rotate(270deg) translate(0, -60px);
+  animation-delay: -0.25s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div:before {
+  top: -60px;
+  left: 0;
+  transform: rotate(210deg) translate(0, -60px);
+  animation-delay: -0.16666667s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div:after {
+  top: -60px;
+  left: 0;
+  transform: rotate(240deg) translate(0, -60px);
+  animation-delay: -0.08333333s;
+}
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div div,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div span,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div svg,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div img,
+body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div p {
+  display: none;
+}
