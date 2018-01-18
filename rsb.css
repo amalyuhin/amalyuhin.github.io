@@ -644,7 +644,7 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-he
     opacity: 0;
   }
 }
-body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] {
+/* body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] {
   transform: scale(0.6);
   position: relative;
   background: none;
@@ -792,4 +792,4 @@ body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-c
 body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div img,
 body.appContainer [data-wl-class~='LoadingOverlay__LoadingOverlay'] > div:last-child > div p {
   display: none;
-}
+} */
