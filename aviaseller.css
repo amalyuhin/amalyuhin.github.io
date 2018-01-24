@@ -1,0 +1,6 @@
+body.appContainer .form-container {
+	padding: 30px 10px 250px 10px;
+}
+body.appContainer .form-container #rzhd_form .block-rzhd-search__form {
+	padding-top: 10px;
+}
