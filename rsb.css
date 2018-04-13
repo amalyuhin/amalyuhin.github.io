@@ -125,24 +125,24 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   background-color: transparent !important;
 }
 
-#ottSaasBody {
+.ottSaasBody {
   background-repeat: no-repeat;
   background-position-x: 50%;
 }
 
-#ottSaasBody[data-wl-vertical="avia"] {
+.ottSaasBody[data-wl-vertical="avia"] {
   background-image: url(https://axin.github.io/plane.png);
   background-size: auto 500px;
 }
 
 @media (max-width: 992px) {
-  #ottSaasBody[data-wl-vertical="avia"] {
+  .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 602px;
   }
 }
 
 @media (max-width: 530px) {
-  #ottSaasBody[data-wl-vertical="avia"] {
+  .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 837px;
   }
 }
