@@ -125,6 +125,14 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   background-color: transparent !important;
 }
 
+body.appContainer [data-wl-class~="HotelsIndex__search"] {
+  background: transparent;
+}
+
+body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
+  margin-top: 0 !important;
+}
+
 .ottSaasBody {
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -133,6 +141,11 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
 .ottSaasBody[data-wl-vertical="avia"] {
   background-image: url(https://axin.github.io/plane.png);
   background-size: auto 540px;
+}
+
+.ottSaasBody[data-wl-vertical="hotels"] {
+  background-image: url("https://s3.eu-central-1.amazonaws.com/ott-static/images/partners/rsb/rs_travel_hotel_2.jpg");
+  background-size: auto 550px;
 }
 
 @media (max-width: 1007px) {
@@ -145,11 +158,21 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 580px;
   }
+
+  .ottSaasBody[data-wl-vertical="hotels"] {
+    background-size: auto 474px;
+  }
 }
 
 @media (max-width: 853px) {
   .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 650px;
+  }
+}
+
+@media (max-width: 783px) {
+  .ottSaasBody[data-wl-vertical="hotels"] {
+    background-size: auto 646px;
   }
 }
 
@@ -1052,5 +1075,3 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-he
     opacity: 0;
   }
 }
-
-
