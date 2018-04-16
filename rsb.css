@@ -32,7 +32,8 @@ form[name="$ctrl.bookingForm"] div.block-icon:last-child div.row:last-child butt
 [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
 [data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before,
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class~=HotelsSerp__header] {
-  background-image: url(img/hotels-stripes.png) !important;
+  /*background-image: url(img/hotels-stripes.png) !important;*/
+  background-color: #c78e38 !important;
 }
 ul.forms-tabs:after {
   content: '';
