@@ -271,6 +271,7 @@ logo > .ottwl-header__block {
 }
 .form-title[data-railways-form-title] {
   margin-top: 0 !important;
+  margin-bottom: 10px !important;
 }
 div[data-wl-class="HotelsIndex__main-title"] {
   margin-top: 217px !important;
@@ -285,10 +286,6 @@ body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
 .block-rzhd-search__form {
   padding-top: 2px !important;
   padding-bottom: 63px !important;
-}
-.form-title[data-railways-form-title] {
-  margin-top: 160px !important;
-  margin-bottom: 10px !important;
 }
 .forms-tabs li a {
   color: #ffffff;
