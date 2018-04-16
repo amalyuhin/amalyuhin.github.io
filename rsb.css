@@ -1087,7 +1087,7 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-he
 [data-wl-class="HotelOfferRoom__pay"] [data-wl-class="HotelOfferRoom__cell-value-badge"] {
   display: none;
 }
-ottSaasAvia .avia-content {
+.ottSaasAvia .avia-content {
   background-color: #fafafa !important;
 }
 .ottSaasAvia .card-form > div:first-child {
