@@ -152,7 +152,7 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 
 .ottSaasBody[data-wl-vertical="avia-serp"] {
   background-image: url(https://axin.github.io/plane.png);
-  background-size: auto 540px;
+  background-size: auto 559px;
 }
 
 .ottSaasBody[data-wl-vertical="hotels-serp"] {
@@ -167,25 +167,19 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 
 @media (max-width: 1007px) {
   .ottSaasBody[data-wl-vertical="avia-serp"] {
-    background-size: auto 656px;
+    background-size: auto 675px;
   }
 }
 
 @media (max-width: 991px) {
   .ottSaasBody[data-wl-vertical="avia-serp"] {
-    background-size: auto 580px;
+    background-size: auto 670px;
   }
   .ottSaasBody[data-wl-vertical="hotels-serp"] {
     background-size: auto 474px;
   }
   .ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 530px;
-  }
-}
-
-@media (max-width: 853px) {
-  .ottSaasBody[data-wl-vertical="avia-serp"] {
-    background-size: auto 650px;
   }
 }
 
@@ -212,7 +206,7 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 
 @media (max-width: 545px) {
   .ottSaasBody[data-wl-vertical="avia-serp"] {
-    background-size: auto 767px;
+    background-size: auto 918px;
   }
 }
 
