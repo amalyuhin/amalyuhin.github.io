@@ -32,7 +32,7 @@ app order:before {
 [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
 [data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before,
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class~=HotelsSerp__header] {
-  background-image: url("https://axin.github.io/img/hotels-stripes.png") !important;
+  background-image: url(img/hotels-stripes.png) !important;
 }
 ul.forms-tabs:after {
   content: '';
@@ -342,7 +342,7 @@ body.appContainer div[data-wl-class~=HotelsHeader__HotelsHeader--isSlideTop] {
   /*padding-top: 250px;*/
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] {
-  background-image: url("https://axin.github.io/img/hotels-stripes.png") !important;
+  background-image: url(/img/hotels-stripes.png) !important;
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=HotelsSerp__content] {
   /*top: 306px !important;*/
