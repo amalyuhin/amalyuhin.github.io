@@ -1096,6 +1096,17 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-he
 .ottSaasAvia .card-form > div:first-child > img {
   display: none;
 }
+.ottSaasAvia .card-form-container:before {
+  content: "";
+  height: 228px;
+  left: 155px;
+  position: absolute;
+  width: 420px;
+  top: 434px;
+  z-index: 0;
+  background-color: #9bc858;
+  border-radius: 15px;
+}
 @-webkit-keyframes uil-default-anim {
   0% {
     opacity: 1;
