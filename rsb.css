@@ -270,7 +270,7 @@ logo > .ottwl-header__block {
   text-align: left !important;
 }
 .form-title[data-railways-form-title] {
-  margin-top: 170px !important;
+  margin-top: 0 !important;
 }
 div[data-wl-class="HotelsIndex__main-title"] {
   margin-top: 217px !important;
