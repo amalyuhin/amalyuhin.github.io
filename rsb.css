@@ -339,13 +339,13 @@ body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
   padding: 53px 10px;
 }
 body.appContainer div[data-wl-class~=HotelsHeader__HotelsHeader--isSlideTop] {
-  padding-top: 250px;
+  /*padding-top: 250px;*/
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] {
-  background-image: url(img/hotels-stripes.png) !important;
+  background-image: url("https://axin.github.io/img/hotels-stripes.png") !important;
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=HotelsSerp__content] {
-  top: 306px !important;
+  /*top: 306px !important;*/
 }
 @media (max-width: 530px) {
   .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__buttons .avia-search-button {
