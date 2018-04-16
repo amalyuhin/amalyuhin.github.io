@@ -142,7 +142,11 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   background: transparent;
 }
 
-.ottSaasBody[data-wl-vertical="avia"] {
+.ottSaasBody[data-wl-vertical] #ottSaasHeader {
+  padding-bottom: 20px;
+}
+
+.ottSaasBody[data-wl-vertical="avia"] #ottSaasHeader {
   background-image: url(img/avia-stripes.png) !important;
 }
 
