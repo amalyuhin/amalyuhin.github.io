@@ -125,7 +125,8 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   background-color: transparent !important;
 }
 
-body.appContainer [data-wl-class~="HotelsIndex__search"] {
+body.appContainer [data-wl-class~="HotelsIndex__search"],
+body.appContainer .form-container {
   background: transparent;
 }
 
@@ -137,9 +138,7 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   background-repeat: no-repeat;
   background-position-x: 50%;
 }
-.ottSaasBody #ottSaaS,
-.ottSaasBody body,
-.ottSaasBody html {
+#ottSaaS, body, html {
   background: transparent;
 }
 
