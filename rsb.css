@@ -154,7 +154,7 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 
 .ottSaasBody[data-wl-vertical="railways"] {
   background-image: url("https://s3.eu-central-1.amazonaws.com/ott-static/images/partners/rsb/rs_travel_train.jpg");
-  background-size: auto 766px;
+  background-size: auto 606px;
 }
 
 @media (max-width: 1007px) {
@@ -194,6 +194,12 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 @media (max-width: 545px) {
   .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 767px;
+  }
+}
+
+@media (max-width: 513px) {
+  .ottSaasBody[data-wl-vertical="railways"] {
+    background-size: auto 766px;
   }
 }
 
