@@ -185,6 +185,12 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   }
 }
 
+@media (max-width: 754px) {
+  .ottSaasBody[data-wl-vertical="railways"] {
+    background-size: auto 749px;
+  }
+}
+
 @media (max-width: 554px) {
   .ottSaasBody[data-wl-vertical="hotels"] {
     background-size: auto 680px;
