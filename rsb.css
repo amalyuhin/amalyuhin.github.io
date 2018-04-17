@@ -37,7 +37,7 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class~=
   background-color: #d39a3f !important;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 976px) {
   [data-wl-class="HotelPage__HotelPage"]:before,
   [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
   [data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before,
