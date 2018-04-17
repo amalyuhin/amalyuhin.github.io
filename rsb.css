@@ -28,13 +28,25 @@ form[name="$ctrl.bookingForm"] div.block-icon:last-child div.row:last-child butt
 /*app order:before {*/
   /*background-image: url(img/avia-stripes.png) !important;*/
 /*}*/
+
 [data-wl-class="HotelPage__HotelPage"]:before,
 [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
 [data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before,
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class~=HotelsSerp__header] {
   /*background-image: url(img/hotels-stripes.png) !important;*/
-  background-color: #c78e38 !important;
+  background-color: #d39a3f !important;
 }
+
+@media (max-width: 991px) {
+  [data-wl-class="HotelPage__HotelPage"]:before,
+  [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
+  [data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before,
+  body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class~=HotelsSerp__header] {
+    /*background-image: url(img/hotels-stripes.png) !important;*/
+    background-color: #c78e38 !important;
+  }
+}
+
 ul.forms-tabs:after {
   content: '';
   display: block;
