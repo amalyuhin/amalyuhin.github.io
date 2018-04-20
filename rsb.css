@@ -1151,7 +1151,7 @@ body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-he
 [data-wl-class="info__ssl-info__caption"]::before,
 [data-wl-class="PayForm__info__caption"]::before {
   display: block;
-  height: 20px;
+  height: 30px;
   visibility: visible;
   content: 'Передача информации защищена сертификатом SSL. Сайт OneTwoTrip в полной мере отвечает стандартам безопасности платежных систем Visa, MasterCard, American Express и Diners Club.';
 }
