@@ -167,6 +167,10 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   background-image: url(img/hotels-stripes.png) !important;
 }
 
+.ottSaasBody[data-wl-vertical="railways-pay"] #ottSaasHeader {
+  background-image: url(img/railway-stripes.png) !important;
+}
+
 .ottSaasBody[data-wl-vertical="avia-serp"] {
   background-image: url(https://axin.github.io/plane.png);
   background-size: auto 559px;
