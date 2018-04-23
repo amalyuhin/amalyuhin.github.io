@@ -1024,6 +1024,7 @@ body.appContainer [data-wl-class~="App__App"] [data-wl-class~="Input__isFocused"
     background-color: #2b2b2b;
     width: 115px;
     left: 420px;
+    z-index: 0;
 }
 .card-form .form-control {
   border: none;
