@@ -172,17 +172,17 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 }
 
 .ottSaasBody[data-wl-vertical="avia-serp"] {
-  background-image: url(https://axin.github.io/plane.png);
+  background-image: url('img/plane.png');
   background-size: auto 559px;
 }
 
 .ottSaasBody[data-wl-vertical="hotels-serp"] {
-  background-image: url("https://s3.eu-central-1.amazonaws.com/ott-static/images/partners/rsb/rs_travel_hotel_2.jpg");
+  background-image: url("img/rs_travel_hotel.jpg");
   background-size: auto 550px;
 }
 
 .ottSaasBody[data-wl-vertical="railways"] {
-  background-image: url("https://s3.eu-central-1.amazonaws.com/ott-static/images/partners/rsb/rs_travel_train.jpg");
+  background-image: url("img/rs_travel_train.jpg");
   background-size: auto 606px;
 }
 
