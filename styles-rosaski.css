@@ -507,3 +507,7 @@ a.btn.btn-red:before {
 .page-header {
     color: white !important;
 }
+
+.spinner.change-tab-spinner {
+   background-color: transparent !important;
+}
