@@ -1,10 +1,10 @@
 [ng-app="ottSaasAvia"] app {
     display: block;
-    min-height: 800px;
+    min-height: 530px;
 }
 
 body {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .banner-avia, best-deals {
@@ -315,7 +315,7 @@ search-form > div > div.clearfix > div > a:before {
     background: #d7efef;
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:after {
-    box-shadow: inset -40px 0 20px -20px #e5ffff;
+    box-shadow: inset -90px 0 20px -20px #e5ffff;
     height: 34px;
 }
 .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__fields .form-group:hover:after {
@@ -497,4 +497,13 @@ a.btn.btn-red:before {
     .avia-search-form-wrap .avia-search-form .change-directions-lnk {
         top: 50%;
     }
+}
+
+.avia-search-form-wrap .avia-search-form .new-autocomplete .new-autocomplete__info > span {
+    height: 34px;
+    line-height: 34px;
+}
+
+.page-header {
+    color: white;
 }
