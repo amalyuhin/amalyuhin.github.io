@@ -505,5 +505,5 @@ a.btn.btn-red:before {
 }
 
 .page-header {
-    color: white;
+    color: white !important;
 }
