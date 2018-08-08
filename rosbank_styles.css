@@ -7,9 +7,17 @@ body.ottSaasBody {
 	padding-bottom: 121px;
 }
 body.ottSaasBody .rosbank-footer {
-position: absolute;
-	width: 100%;
-	bottom: 0;
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+@media (max-width: 680px) {
+	body.ottSaasBody {
+		padding-bottom: 159px;
+	}
+	body.ottSaasBody .rosbank-footer .rosbank-footer__wrapper {
+		padding-bottom: 0;
+	}
 }
 
 #ottSaasHeader .ottwl-header__block .ottwl-header__auth-dialog-btn {
