@@ -1,3 +1,17 @@
+html#ng-app {
+	height: 100%;
+}
+body.ottSaasBody {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 121px;
+}
+body.ottSaasBody .rosbank-footer {
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 #ottSaasHeader .ottwl-header__block .ottwl-header__auth-dialog-btn {
 	display: none;
 }
