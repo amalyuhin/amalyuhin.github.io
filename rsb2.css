@@ -183,12 +183,15 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 
 .ottSaasBody[data-wl-vertical="railways"] {
   background-image: url("img/rs_travel_train.jpg");
-  background-size: auto 606px;
+  background-size: auto 568px;
 }
 
 @media (max-width: 1007px) {
   .ottSaasBody[data-wl-vertical="avia-serp"] {
     background-size: auto 675px;
+  }
+  .ottSaasBody[data-wl-vertical="railways"] {
+    background-size: auto 492px;
   }
 }
 
@@ -200,7 +203,7 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
     background-size: auto 474px;
   }
   .ottSaasBody[data-wl-vertical="railways"] {
-    background-size: auto 530px;
+    background-size: auto 492px;
   }
 }
 
@@ -209,13 +212,16 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
     background-size: auto 646px;
   }
   .ottSaasBody[data-wl-vertical="railways"] {
-    background-size: auto 690px;
+    background-size: auto 712px;
   }
 }
 
 @media (max-width: 754px) {
   .ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 749px;
+  }
+  .rzhd-form__submit {
+    width: 150px !important;
   }
 }
 
@@ -1215,4 +1221,14 @@ body.appContainer .form-container .form-title:before {
   visibility: visible;
   font-size: 50px !important;
   font-family: 'LatoWeb', sans-serif !important;
+}
+
+#ottSaasHeader logo > .ottwl-header__block {
+  height: 46px;
+}
+
+/*hide rsb insurance button*/
+#ottSaasHeader .ottwl-header__block .forms-tabs li:nth-child(4),
+#ottSaasHeader .ottwl-header__block [uib-dropdown-menu].dropdown-menu li:nth-child(4) {
+  display: none;
 }
