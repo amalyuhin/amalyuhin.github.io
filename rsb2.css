@@ -202,15 +202,21 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   /*.ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 492px;
   }*/
+  .ottSaasBody[data-wl-vertical="railways"] {
+    background-size: auto 482px;
+  }
+  .form-container .form-title:before {
+    font-size: 42px !important;
+  }
 }
 
 @media (max-width: 926px) {
-  .ottSaasBody[data-wl-vertical="railways"] {
+  /*.ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 482px;
   }
   body.appContainer .form-container .form-title:before {
     font-size: 42px !important;
-  }
+  }*/
 } 
 
 @media (max-width: 783px) {
