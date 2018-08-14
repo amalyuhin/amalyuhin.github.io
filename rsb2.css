@@ -214,11 +214,15 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   .ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 712px;
   }
+
+  body.appContainer .form-container .form-title:before {
+
+  }
 }
 
 @media (max-width: 754px) {
   .ottSaasBody[data-wl-vertical="railways"] {
-    background-size: auto 749px;
+    background-size: auto 712px;
   }
   .rzhd-form__submit {
     width: 150px !important;
