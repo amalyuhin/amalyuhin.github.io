@@ -199,9 +199,9 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   .ottSaasBody[data-wl-vertical="hotels-serp"] {
     background-size: auto 474px;
   }
-  .ottSaasBody[data-wl-vertical="railways"] {
+  /*.ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 492px;
-  }
+  }*/
 }
 
 @media (max-width: 926px) {
@@ -218,14 +218,14 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
     background-size: auto 646px;
   }
   .ottSaasBody[data-wl-vertical="railways"] {
-    background-size: auto 712px;
+    background-size: auto 692px;
   }
 }
 
 @media (max-width: 754px) {
-  .ottSaasBody[data-wl-vertical="railways"] {
+  /*.ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 692px;
-  }
+  }*/
   .rzhd-form__submit {
     width: 150px !important;
   }
@@ -249,11 +249,11 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   }
 }
 
-@media (max-width: 513px) {
+/*@media (max-width: 513px) {
   .ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 766px;
   }
-}
+}*/
 
 /*#ottSaasHeader {*/
   /*position: absolute;*/
