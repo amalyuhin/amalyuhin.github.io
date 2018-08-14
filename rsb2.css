@@ -205,9 +205,6 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   .ottSaasBody[data-wl-vertical="railways"] {
     background-size: auto 482px;
   }
-  .form-container .form-title:before {
-    font-size: 42px !important;
-  }
 }
 
 @media (max-width: 976px) {
