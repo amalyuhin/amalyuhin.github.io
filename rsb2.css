@@ -205,6 +205,9 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 }
 
 @media (max-width: 926px) {
+  .ottSaasBody[data-wl-vertical="railways"] {
+    background-size: auto 482px;
+  }
   body.appContainer .form-container .form-title:before {
     font-size: 42px !important;
   }
@@ -221,10 +224,16 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 
 @media (max-width: 754px) {
   .ottSaasBody[data-wl-vertical="railways"] {
-    background-size: auto 712px;
+    background-size: auto 692px;
   }
   .rzhd-form__submit {
     width: 150px !important;
+  }
+}
+
+@media (max-width: 564px) {
+  .ottSaasBody[data-wl-vertical="railways"] {
+    background-size: auto 742px;
   }
 }
 
