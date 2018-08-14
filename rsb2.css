@@ -210,13 +210,10 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
   }
 }
 
-@media (max-width: 926px) {
-  /*.ottSaasBody[data-wl-vertical="railways"] {
-    background-size: auto 482px;
-  }
+@media (max-width: 976px) {
   body.appContainer .form-container .form-title:before {
     font-size: 42px !important;
-  }*/
+  }
 } 
 
 @media (max-width: 783px) {
