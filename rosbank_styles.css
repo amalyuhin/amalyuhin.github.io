@@ -20,10 +20,6 @@ body.ottSaasBody .rosbank-footer {
 	}
 }
 
-#ottSaasHeader .ottwl-header__block .ottwl-header__auth-dialog-btn {
-	display: none;
-}
-
 body[ng-app="ottWlProfile"] .mobile-menu .forms-tabs li:nth-child(2) a:before,
 body[ng-app="ottWlProfile"] nav-bar .nav-bar-table tr td:nth-child(2) a:before {
 	content: 'TRAVEL-'
@@ -32,4 +28,41 @@ body[ng-app="ottWlProfile"] nav-bar .nav-bar-table tr td:nth-child(2) a:before {
 body[ng-app="ottWlProfile"] .btn-primary {
 	background-color: #7f7f7f !important;
 	border-color: #7f7f7f !important;
+}
+
+#ottSaasHeader .ottwl-header__block .ottwl-header__auth-dialog-btn {
+	display: none;
+}
+
+#ottSaasHeader .forms-tabs {
+	border-bottom: 1px solid #e1e3e6;
+}
+#ottSaasHeader .forms-tabs li {
+	margin: 0;
+	margin-right: 50px;
+	padding: 0;
+}
+#ottSaasHeader .forms-tabs li:last-child {
+	margin-right: 0;
+}
+#ottSaasHeader .forms-tabs li a {
+    color: #999;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -1px;
+    padding-bottom: 20px;
+    border-radius: 0;
+    border-bottom: 5px solid transparent;
+}
+#ottSaasHeader .forms-tabs li.active a, 
+#ottSaasHeader .forms-tabs li.active:hover a, 
+#ottSaasHeader .forms-tabs li.active:hover a:hover, 
+#ottSaasHeader .forms-tabs li.active:focus a, 
+#ottSaasHeader .forms-tabs li.active a:focus, 
+#ottSaasHeader .forms-tabs li.active:focus a:focus {
+	color: #333 !important;
+	background: transparent;
+	border-bottom-color: #e60028;
 }
