@@ -39,7 +39,7 @@ body[ng-app="ottWlProfile"] .btn-primary {
 }
 #ottSaasHeader .forms-tabs li {
 	margin: 0;
-	margin-right: 50px;
+	margin-right: 70px;
 	padding: 0;
 }
 #ottSaasHeader .forms-tabs li:last-child {
