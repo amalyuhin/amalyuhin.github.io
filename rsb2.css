@@ -1192,7 +1192,7 @@ body.appContainer div[data-wl-class~="HotelsIndex__main-title"],
 body.appContainer .form-container .form-title,
 .avia-search-form-wrap .form-title {
   font-size: 0 !important;
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 .avia-search-form-wrap .form-title:before {
