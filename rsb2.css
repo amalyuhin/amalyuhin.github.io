@@ -1196,21 +1196,21 @@ body.appContainer .form-container .form-title,
 }
 
 .avia-search-form-wrap .form-title:before {
-  content:'Найдите авиабилеты по лучшим ценам';
+  content: '\041d\0430\0439\0434\0438\0442\0435\0020\0430\0432\0438\0430\0431\0438\043b\0435\0442\044b\0020\043f\043e\0020\043b\0443\0447\0448\0438\043c\0020\0446\0435\043d\0430\043c';
   color: #fff;
   visibility: visible;
   font-size: 50px !important;
   font-family: 'LatoWeb', sans-serif !important;
 }
 body.appContainer div[data-wl-class~="HotelsIndex__main-title"]:before{
-  content:'Бронируйте отели по всему миру';
+  content: '\0411\0440\043e\043d\0438\0440\0443\0439\0442\0435\0020\043e\0442\0435\043b\0438\0020\043f\043e\0020\0432\0441\0435\043c\0443\0020\043c\0438\0440\0443';
   color: #fff;
   visibility: visible;
   font-size: 50px !important;
   font-family: 'LatoWeb', sans-serif !important;
 }
 body.appContainer .form-container .form-title:before {
-  content:'Покупайте железнодорожные билеты';
+  content: '\041f\043e\043a\0443\043f\0430\0439\0442\0435\0020\0436\0435\043b\0435\0437\043d\043e\0434\043e\0440\043e\0436\043d\044b\0435\0020\0431\0438\043b\0435\0442\044b';
   color: #fff;
   visibility: visible;
   font-size: 50px;
