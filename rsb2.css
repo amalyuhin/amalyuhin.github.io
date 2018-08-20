@@ -265,7 +265,11 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 .forms-tabs li a {
   padding: 6px 15px;
 }
-.ottwl-header div.ottwl-header__block:nth-child(2) {
+/*.ottwl-header div.ottwl-header__block:nth-child(2) {
+  margin-top: 102px;
+  margin-left: -10px;
+}*/
+.ottwl-header div.ottwl-header__block.desktop-nav {
   margin-top: 102px;
   margin-left: -10px;
 }
@@ -328,6 +332,7 @@ body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
   padding-bottom: 63px !important;
 }
 .forms-tabs li a {
+  border-bottom: 0;
   color: #ffffff;
   font-size: 22px;
   font-family: 'LatoWeb' !important;
