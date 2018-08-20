@@ -296,6 +296,7 @@ logo > .ottwl-header__block {
 .ottwl-header__block .logo-image {
   width: 447px !important;
   max-width: 100% !important;
+  margin: 0;
 }
 .best-deals .best-deals-title {
   margin-top: 0;
