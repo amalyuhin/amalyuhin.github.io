@@ -1232,3 +1232,16 @@ body.appContainer .form-container .form-title:before {
 #ottSaasHeader .ottwl-header__block [uib-dropdown-menu].dropdown-menu li:nth-child(4) {
   display: none;
 }
+
+#ottSaasHeader nav.mobile-menu-open, 
+#ottSaasHeader nav .mobile-nav .mobile-menu .dropdown-menu {
+  background: #333333;
+}
+#ottSaasHeader nav .mobile-nav .dropdown-menu>li>a {
+  color: #808080;
+}
+#ottSaasHeader nav .mobile-nav .dropdown-menu>li>a:focus,
+#ottSaasHeader nav .mobile-nav .dropdown-menu>li>a:hover {
+  color: #83b143;
+  background-color: #403f3f;
+}
