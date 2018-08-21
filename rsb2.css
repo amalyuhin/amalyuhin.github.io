@@ -1233,6 +1233,12 @@ body.appContainer .form-container .form-title:before {
   display: none;
 }
 
+/*updated header*/
+#ottSaasHeader nav .mobile-menu .dropdown-toggle .__open,
+#ottSaasHeader nav .mobile-menu .dropdown-toggle .__close,
+#ottSaasHeader nav .mobile-menu .dropdown-toggle .__close path:nth-child(2) {
+  fill: #fff;
+}
 #ottSaasHeader nav.mobile-menu-open, 
 #ottSaasHeader nav .mobile-nav .mobile-menu .dropdown-menu {
   background: #333333;
