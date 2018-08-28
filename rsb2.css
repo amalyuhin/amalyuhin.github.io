@@ -1248,10 +1248,11 @@ body.appContainer .form-container .form-title:before {
 #ottSaasHeader nav.mobile-menu-open, 
 #ottSaasHeader nav .mobile-nav .mobile-menu .dropdown-menu {
   background: #333333;
+  padding: 0 10px;
 }
 #ottSaasHeader nav .mobile-nav .dropdown-menu>li>a {
   color: #808080;
-  padding: 20px 15px;
+  padding: 20px 5px;
 }
 #ottSaasHeader nav .mobile-nav .dropdown-menu>li>a:focus,
 #ottSaasHeader nav .mobile-nav .dropdown-menu>li>a:hover {
