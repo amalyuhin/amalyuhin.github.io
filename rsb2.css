@@ -1251,9 +1251,13 @@ body.appContainer .form-container .form-title:before {
 }
 #ottSaasHeader nav .mobile-nav .dropdown-menu>li>a {
   color: #808080;
+  padding: 20px 15px;
 }
 #ottSaasHeader nav .mobile-nav .dropdown-menu>li>a:focus,
 #ottSaasHeader nav .mobile-nav .dropdown-menu>li>a:hover {
   color: #83b143;
   background-color: #403f3f;
+}
+#ottSaasHeader nav .mobile-nav .mobile-menu .btn.dropdown-toggle {
+  padding-left: 0;
 }
