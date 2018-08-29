@@ -30,7 +30,9 @@ body[ng-app="ottWlProfile"] .btn-primary {
 	border-color: #7f7f7f !important;
 }
 
-#ottSaasHeader .ottwl-header__block .ottwl-header__auth-dialog-btn {
+#ottSaasHeader .ottwl-header__block .ottwl-header__auth-dialog-btn,
+#ottSaasHeader .ottwl-header__block .ottwl-header__logout-btn,
+#ottSaasHeader .ottwl-header__block .btn-logout {
 	display: none;
 }
 
