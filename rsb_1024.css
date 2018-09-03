@@ -260,13 +260,16 @@ body.appContainer div[data-wl-class~=HotelsIndex__main-title] {
 .forms-tabs li a {
   padding: 6px 15px;
 }
+.forms-tabs li:first-child a {
+  padding-left: 0;
+}
 /*.ottwl-header div.ottwl-header__block:nth-child(2) {
   margin-top: 102px;
   margin-left: -10px;
 }*/
 .ottwl-header div.ottwl-header__block.desktop-nav {
   margin-top: 102px;
-  margin-left: -10px;
+  margin-left: 0;
 }
 .mobile-menu .icon-bar + .icon-bar {
   margin-top: 8px !important;
