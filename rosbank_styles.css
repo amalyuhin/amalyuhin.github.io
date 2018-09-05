@@ -25,7 +25,9 @@ body[ng-app="ottWlProfile"] nav-bar .nav-bar-table tr td:nth-child(2) a:before {
 	content: 'TRAVEL-'
 } */
 body[ng-app="ottWlProfile"] .mobile-menu .forms-tabs li:nth-child(2),
-body[ng-app="ottWlProfile"] nav-bar .nav-bar-table tr td:nth-child(2) {
+body[ng-app="ottWlProfile"] nav-bar .nav-bar-table tr td:nth-child(2),
+body[ng-app="ottWlProfile"] .basic-info__contacts-form .block__email,
+body[ng-app="ottWlProfile"] .basic-info__change-password-form {
 	display: none;
 }
 
