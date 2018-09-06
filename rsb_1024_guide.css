@@ -224,9 +224,6 @@ html {
   margin-top: 25px !important;
   margin-left: -12px !important;
 }*/
-.ottwl-header div.ottwl-header__block:nth-child(4) {
-  display: none;
-}
 logo > .ottwl-header__block {
   margin-top: 17px;
 }
