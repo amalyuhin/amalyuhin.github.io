@@ -24,6 +24,15 @@ iframe {
 .ottSaasBody[data-wl-vertical="railways"] {
   background: url('img/railway-stripes.png') repeat-x 0 0 / auto 332px;
 }
+.ottSaasBody.--wl-gadget-loading[data-wl-vertical="avia-serp"] {
+  background: url('img/avia-stripes.png') repeat-x 0 0 / auto 250px;
+}
+.ottSaasBody.--wl-gadget-loading[data-wl-vertical="hotels-serp"] {
+  background: url('img/hotels-stripes.png') repeat-x 0 0 / auto 250px;
+}
+.ottSaasBody.--wl-gadget-loading[data-wl-vertical="railways-serp"] {
+  background: url('img/railway-stripes.png') repeat-x 0 0 / auto 250px;
+}
 @media (max-width: 1215px) {
   .ottSaasBody[data-wl-vertical="hotels-serp"] {
     background-size: auto 539px;
