@@ -223,6 +223,9 @@ html {
   margin-top: 25px !important;
   margin-left: -12px !important;
 }*/
+.ottwl-header div.ottwl-header__block:nth-child(4) {
+  display: none;
+}
 logo > .ottwl-header__block {
   margin-top: 17px;
 }
@@ -1166,10 +1169,6 @@ body.appContainer .form-container .form-title:before {
   height: 46px;
 }
 /*hide rsb insurance button*/
-#ottSaasHeader .ottwl-header__block .forms-tabs li:nth-child(4),
-#ottSaasHeader .ottwl-header__block [uib-dropdown-menu].dropdown-menu li:nth-child(4) {
-  display: none;
-}
 /*updated header*/
 #ottSaasHeader nav .mobile-menu .dropdown-toggle .__open,
 #ottSaasHeader nav .mobile-menu .dropdown-toggle .__close,
