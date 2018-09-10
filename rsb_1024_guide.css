@@ -6,10 +6,11 @@ iframe {
 }
 .ottSaasBody[data-wl-vertical="avia-serp"] {
   background: url('img/plane.png') no-repeat 50% 0, linear-gradient(#98acbb, #98acbb);
+  background-size: auto 570px;
 }
 .ottSaasBody[data-wl-vertical="hotels-serp"] {
   background: url('img/rs_travel_hotel.jpg') no-repeat 50% 0;
-  background-size: auto 482px;
+  background-size: auto 571px;
 }
 .ottSaasBody[data-wl-vertical="railways-serp"] {
   background: url('img/rs_travel_train.jpg') no-repeat 50% 0;
@@ -35,23 +36,76 @@ iframe {
 }
 @media (max-width: 1215px) {
   .ottSaasBody[data-wl-vertical="hotels-serp"] {
-    background-size: auto 539px;
+    background-size: auto 627px;
   }
 }
 @media (max-width: 1087px) {
   .ottSaasBody[data-wl-vertical="avia-serp"] {
-    background-size: auto 672px;
+    background-size: auto 739px;
+  }
+}
+@media (max-width: 1006px) {
+  .ottSaasBody[data-wl-vertical="railways-serp"] {
+    background-size: auto 690px;
   }
 }
 @media (max-width: 991px) {
   .ottSaasBody[data-wl-vertical="avia-serp"] {
-    background-size: auto 625px;
+    background-size: auto 661px;
   }
   .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 263px;
   }
   .ottSaasBody[data-wl-vertical="hotels-serp"] {
     background-size: auto 586px;
+  }
+  .ottSaasBody[data-wl-vertical="railways-serp"] {
+    background-size: auto 612px;
+  }
+}
+@media (max-width: 783px) {
+  .ottSaasBody[data-wl-vertical="hotels-serp"] {
+    background-size: auto 605px;
+  }
+}
+@media (max-width: 778px) {
+  .ottSaasBody[data-wl-vertical="avia-serp"] {
+    background-size: auto 706px;
+  }
+}
+@media (max-width: 758px) {
+  .ottSaasBody[data-wl-vertical="railways-serp"] {
+    background-size: auto 706px;
+  }
+}
+@media (max-width: 663px) {
+  .ottSaasBody[data-wl-vertical="hotels-serp"] {
+    background-size: auto 651px;
+  }
+}
+@media (max-width: 549px) {
+  .ottSaasBody[data-wl-vertical="railways-serp"] {
+    background-size: auto 751px;
+  }
+}
+@media (max-width: 545px) {
+  .ottSaasBody[data-wl-vertical="hotels-serp"] {
+    background-size: auto 707px;
+  }
+}
+@media (max-width: 438px) {
+  .ottSaasBody[data-wl-vertical="avia-serp"] {
+    background-size: auto 751px;
+  }
+}
+@media (max-width: 385px) {
+  .ottSaasBody[data-wl-vertical="hotels-serp"] {
+    background-size: auto 753px;
+  }
+}
+@media (max-width: 322px) {
+  .ottSaasBody[data-wl-vertical="avia-serp"] {
+    background-size: auto 873px;
   }
 }
 .filtr-block .tabs > li.active > a > span {
