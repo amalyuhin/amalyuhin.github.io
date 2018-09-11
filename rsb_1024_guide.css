@@ -6,7 +6,7 @@ iframe {
 }
 .ottSaasBody[data-wl-vertical="avia-serp"] {
   background: url('img/rs_travel_avia.jpg') no-repeat 50% 0, linear-gradient(#98acbb, #98acbb);
-  background-size: auto;
+  background-size: cover;
 }
 .ottSaasBody[data-wl-vertical="hotels-serp"] {
   background: url('img/rs_travel_hotel.jpg') no-repeat 50% 0;
