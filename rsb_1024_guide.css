@@ -6,7 +6,7 @@ iframe {
 }
 .ottSaasBody[data-wl-vertical="avia-serp"] {
   background: url('img/rs_travel_avia.jpg') no-repeat 50% 0, linear-gradient(#98acbb, #98acbb);
-  background-size: cover;
+  background-size: auto;
 }
 .ottSaasBody[data-wl-vertical="hotels-serp"] {
   background: url('img/rs_travel_hotel.jpg') no-repeat 50% 0;
@@ -33,6 +33,11 @@ iframe {
 }
 .ottSaasBody.--wl-gadget-loading[data-wl-vertical="railways-serp"] {
   background: url('img/railway-stripes.png') repeat-x 0 0 / auto 250px;
+}
+@media (min-width: 1921px) {
+  .ottSaasBody[data-wl-vertical="avia-serp"] {
+    background-size: cover;
+  }
 }
 @media (max-width: 1215px) {
   .ottSaasBody[data-wl-vertical="hotels-serp"] {
