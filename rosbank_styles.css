@@ -1,3 +1,4 @@
+/*
 html#ng-app {
 	height: 100%;
 }
@@ -11,6 +12,7 @@ body.ottSaasBody .rosbank-footer {
     width: 100%;
     bottom: 0;
 }
+*/
 @media (max-width: 680px) {
 	body.ottSaasBody {
 		padding-bottom: 159px;
