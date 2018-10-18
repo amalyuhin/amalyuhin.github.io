@@ -14,9 +14,11 @@ body.ottSaasBody .rosbank-footer {
 }
 */
 @media (max-width: 680px) {
+	/*
 	body.ottSaasBody {
 		padding-bottom: 159px;
 	}
+	*/
 	body.ottSaasBody .rosbank-footer .rosbank-footer__wrapper {
 		padding-bottom: 0;
 	}
