@@ -34,6 +34,9 @@ iframe {
 .ottSaasBody.--wl-gadget-loading[data-wl-vertical="railways-serp"] {
   background: url('img/railway-stripes.png') repeat-x 0 0 / auto 250px;
 }
+.ottSaasBody.gadget-unload {
+  background-size: auto 217px !important;
+}
 @media (min-width: 1921px) {
   .ottSaasBody[data-wl-vertical="avia-serp"],
   .ottSaasBody[data-wl-vertical="hotels-serp"],
@@ -44,6 +47,9 @@ iframe {
 @media (max-width: 991px) {
   .ottSaasBody[data-wl-vertical="avia"] {
     background-size: auto 263px;
+  }
+  .ottSaasBody.gadget-unload {
+    background-size: auto 160px !important;
   }
 }
 .filtr-block .tabs > li.active > a > span {
@@ -286,7 +292,7 @@ ul.forms-tabs li:last-child {
 ul.forms-tabs li a {
   color: #ffffff;
   font-size: 22px;
-  font-family: 'LatoWeb' !important;
+  font-family: LatoWeb, sans-serif !important;
   padding: 6px 0 10px 0;
   border-bottom: 4px solid transparent;
   margin-bottom: -1px;
