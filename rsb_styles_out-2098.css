@@ -9,11 +9,11 @@ iframe {
   background-size: auto;
 }
 .ottSaasBody[data-wl-vertical="hotels-serp"] {
-  background: url('img/rs_travel_hotel.jpg') no-repeat 50% 0;
+  background: url('img/rs_travel_hotel.jpg') no-repeat 50% 0, linear-gradient(#c9953d, #c9953d);
   background-size: auto;
 }
 .ottSaasBody[data-wl-vertical="railways-serp"] {
-  background: url('img/rs_travel_train.jpg') no-repeat 50% 0;
+  background: url('img/rs_travel_train.jpg') no-repeat 50% 0, linear-gradient(#56733e, #56733e);
   background-size: auto;
 }
 .ottSaasBody[data-wl-vertical="avia"] {
