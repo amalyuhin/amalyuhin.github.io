@@ -158,13 +158,21 @@ booking a {
   opacity: 1 !important;
   width: 110px !important;
   height: 110px !important;
-  animation: spin 4s linear infinite !important;
+  animation: rsbLoading 4s linear infinite !important;
 }
 @keyframes spin {
   100% {
     transform: rotate(360deg);
     transform-origin: 50% 50%;
   }
+}
+@keyframes rsbLoading {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(1turn)
+    }
 }
 body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   padding-top: 0;
