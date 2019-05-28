@@ -1,0 +1,1 @@
+(function(t,r,i,p){i=t.createElement(r);i.src="https://www.tripadvisor.ru/WidgetEmbed-certificateOfExcellence?year=2018&locationId=2694967&display_version=2&uniq=352&lang=ru";i.async=true;p=t.getElementsByTagName(r)[0];p.parentNode.insertBefore(i,p)})(document,"script");
